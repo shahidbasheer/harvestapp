@@ -1,0 +1,49 @@
+ Volume in drive C has no label.
+ Volume Serial Number is 1C26-7A9C
+
+ Directory of C:\xampp\htdocs\my_gulp_work_flow\ionicframwork
+
+12/26/2015  09:03 PM    <DIR>          .
+12/26/2015  09:03 PM    <DIR>          ..
+11/09/2015  08:41 AM                14 .gitignore
+12/09/2015  11:12 PM    <DIR>          .sass-cache
+12/26/2015  09:02 PM             4,732 1.index.html
+12/26/2015  09:02 PM             8,068 10.Setup-Business---Step-4.html
+12/26/2015  08:58 PM             8,068 11.Setup-Business---Step-4.html
+12/26/2015  09:02 PM            24,135 11.Setup-Business---Step-5.html
+12/26/2015  08:57 PM             8,068 110.Setup-Business---Step-4.html
+12/26/2015  09:02 PM             8,362 12.Setup-Business---Step-Completed.html
+12/26/2015  09:02 PM             4,778 13.preference.html
+12/26/2015  09:02 PM            38,507 14.settings-general.html
+12/26/2015  09:02 PM            29,082 15.employee-listing.html
+12/26/2015  09:02 PM            19,134 16.service-listing-product.html
+12/26/2015  09:02 PM            19,544 17.service-listing.html
+12/26/2015  09:02 PM            12,260 18.CRM-listing.html
+12/26/2015  09:02 PM            19,544 19.CRM-quickadd.html
+12/26/2015  09:02 PM             3,223 2.login-2.html
+12/26/2015  09:02 PM             7,789 20.CRM-welcome-screen.html
+12/26/2015  09:02 PM             3,692 3.login.html
+12/26/2015  09:02 PM             3,396 4.forget-password.html
+12/26/2015  09:02 PM             3,167 5.start-trail-confirmation-screen.html
+12/26/2015  09:02 PM             3,946 6.dashboard-empty.html
+12/26/2015  09:02 PM            39,121 7.Setup-Business---Step-1.html
+12/26/2015  09:02 PM            39,357 8.Setup-Business---Step-2.html
+12/26/2015  09:02 PM            10,150 9.Setup-Business---Step-3.html
+12/22/2015  09:24 PM    <DIR>          build
+12/05/2015  03:56 PM    <DIR>          compass_temp_assets
+07/26/2015  12:37 PM               931 config.rb
+12/14/2015  12:50 PM    <DIR>          css
+12/13/2015  01:44 PM    <DIR>          font-awesome
+12/20/2015  11:42 AM    <DIR>          fonts
+12/26/2015  03:10 PM             5,869 gulpfile.js
+12/26/2015  06:55 PM               126 harvestapp.sublime-project
+12/26/2015  12:37 AM            44,918 harvestapp.sublime-workspace
+12/26/2015  08:59 PM    <DIR>          html
+12/20/2015  11:03 AM    <DIR>          images
+12/14/2015  12:49 PM    <DIR>          js
+12/26/2015  09:03 PM                 0 list.txt
+11/29/2015  02:31 PM    <DIR>          salesforce
+11/29/2015  02:31 PM    <DIR>          sass
+12/26/2015  11:57 AM    <DIR>          _assests
+              28 File(s)        369,981 bytes
+              14 Dir(s)     592,793,600 bytes free

@@ -1,0 +1,80 @@
+body {
+  background: #fff;
+}
+
+.blue {
+  color: #00a1e0;
+}
+
+.Register {
+  padding: 50px;
+}
+
+.top {
+  text-align: right;
+}
+
+.lead {
+  text-align: center;
+}
+
+.cta {
+  max-width: 850px;
+  padding: 0 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cta-left {
+  margin-top: 50px;
+  border: 1px solid #ddd;
+  padding: 36px 50px;
+}
+.cta-left .btn {
+  margin-top: 10px;
+  margin-bottom: 18px;
+}
+
+.seprater-90 {
+  margin-top: 20px;
+}
+
+.cta-form {
+  color: #fff;
+  background: #00a1e0;
+  padding: 20px 42px;
+}
+.cta-form h2 {
+  color: #fff;
+  margin-bottom: 38px;
+}
+.cta-form p {
+  margin-bottom: 20px;
+}
+.cta-form .btn-lg {
+  padding: 17px 16px;
+  margin-top: 24px;
+}
+.cta-form .text-center a {
+  color: #fff;
+}
+
+.no-gutter > [class*='col-'] {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.margin-bottom-30 {
+  content: "";
+  height: 1px;
+  display: block;
+  margin-bottom: 30px;
+}
+
+.btn-default {
+  color: #000 !important;
+  background-color: #fff !important;
+  border-color: #e4e4e4 !important;
+}
+
+/*# sourceMappingURL=style_ubold.css.map */

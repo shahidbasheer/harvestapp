@@ -1,0 +1,429 @@
+
+
+<!doctype html>
+
+
+
+
+<html class="no-js" lang="">
+
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+    <link rel="stylesheet" href="css/salesforce-lightning-design-system.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/jquery.timepicker.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/flags.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery.datetimepicker.css"/ >
+    
+    
+    
+    
+    <link rel="stylesheet" href="css/style.css">
+    
+    
+    
+</head>
+
+<body>
+    
+    <div class="wrap">
+       
+      
+
+<div class="container-fluid" id="dashboard">
+	
+    <div class="top-bar">
+    	<div class="row">
+    			
+    			<nav class="navbar navbar-inverse" role="navigation">
+    			  <div class="container-fluid">
+    			    
+    			    <div class="navbar-header">
+    			      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+    			        <span class="sr-only">Toggle navigation</span>
+    			        <span class="icon-bar"></span>
+    			        <span class="icon-bar"></span>
+    			        <span class="icon-bar"></span>
+    			      </button>
+    			    </div>
+    
+    			    
+    			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    			      <ul class="nav navbar-nav top-left-nav">
+    			        <li class="">
+    					<a href="" class=""><i class="glyphicon glyphicon-th"></i></a>
+    					</li>
+    					<li>
+    						<a href="">Dashboard</a>
+    					</li>
+    					<li>
+    						<a href="">Appointments</a>
+    					</li>
+    					<li>
+    						<a href="">Clients</a>
+    					</li>
+    					<li>
+    						<a href="">Invoices & Billings</a>
+    					</li>
+    					<li>
+    						<a href="">Services & Products</a>
+    					</li>
+    			      </ul>
+    			    
+    			      <ul class="nav navbar-nav navbar-right top-right-nav">
+    			        
+    			        <li>
+    					<a href="">Shahid Bashir</a>
+    					</li>
+    					<li class="">
+    						<a href="" class="dropdown-toggle" data-toggle="dropdown"><i class="glyphicon glyphicon-cog"></i></a>
+    						<ul class="dropdown-menu">
+    	                        <li>
+    	                            <a href="#">Profile</a>
+    	                        </li>
+    	                        <li>
+    	                            <a href="#">Inbox</a>
+    	                        </li>
+    	                        <li>
+    	                            <a href="#">Settings</a>
+    	                        </li>
+    	                    </ul>
+    					</li>
+    					<li class="">
+    						<a href=""><i class="glyphicon glyphicon-circle-arrow-right"></i></a>
+    					</li>
+    
+    			      </ul>
+    			    </div>
+    			  </div>
+    			</nav>
+    
+    		</div>
+    
+    </div> 
+    
+    
+    
+		
+
+    <div class="setting-wrapper">
+        
+        
+
+        <div class="settings-navigation">
+            
+            <ul class="nav navbar-nav side-nav">
+                <h4>Genral Setting</h4>
+                <li class="active">
+                    <a href="#">Dashboard</a>
+                </li>
+                <li>
+                    <a href="#">Employees</a>
+                </li>
+                <li>
+                    <a href="#">Services</a>
+                </li>
+                <li>
+                    <a href="#">Products</a>
+                </li>
+                <li>
+                    <a href="#">Closed Date</a>
+                </li>
+                <li>
+                    <a href="#">Roster</a>
+                </li>
+                <li>
+                    <a href="javascript:;" data-toggle="collapse" data-target="#demo" class="collapsed" aria-expanded="false"> Dropdown <i class="fa fa-fw fa-caret-down"></i></a>
+                    <ul id="demo" class="collapse list-unstyled" aria-expanded="false" style="height: 0px;">
+                        <li>
+                            <a href="#">Dropdown Item</a>
+                        </li>
+                        <li>
+                            <a href="#">Dropdown Item</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div> 
+        
+        
+	    <div class="container-fluid">
+		    	<div class="settings-notification">
+		    		<p><img src="images/success-icon2.png" alt="">Sucess Message</p>
+		    		
+		    	</div>
+		    	
+                <header>
+		    		<div class="bread-crumb m-bottom-20">
+		    			<ul class="list-inline">
+		    				<li><a href="">PARENT ENTITY</a></li>
+		    				<li class="last-child"><a href="">PARENT RECORD NAME</a></li>
+		    			</ul>
+		    		</div>
+		    		<h4  class="bold">Services<a href="#" class="create-anchor s-t" data-toggle="modal" data-target="#addservice"><i class="fa fa-plus" ></i>Create group</a> </h4>
+                    <p>Here you can setup services available for client bookings. Use groups to categorise your menu, and add individual services within groups. Drag & drop to arrange the menu order using the small icons on the left. The menu order setup here will display the same for online bookings, Closed Dates and for when appointments are created using the calendar Updates made to your service menu will automatically show on the calendar and online bookings, but existing appointment won't be impacted. .</p>
+		    	</header>
+
+		    	<div class="row">
+
+		    		<div class="col-sm-12 no-padding">
+    					<div class="content settings">
+                            <div class="service-listing">
+                                <div class="inside-border">
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <div class="heading clearfix">
+                                                <h5 class="pull-left">Group name will go here</h5>
+                                                <a href="#" class="create-anchor pull-right"><i class="fa fa-plus"></i>Create Services</a>
+                                            </div> 
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="service">
+                                        <div class="row">
+                                            <div class="col-sm-4">
+                                                <h4><span class="fa fa-circle online"></span>Product name</h4>
+                                                <span class="time">90 MIN</span>,<span class="status">Open for online booking</span>
+                                            </div>
+                                            <div class="col-sm-4">
+                                                <span class="price">$45.00</span><br>
+                                                <span class="price-special" >Special Price: $35.00</span>
+
+                                            </div>
+                                            <div class="col-sm-4">
+                                                <span class="active-coupen pull-right">9 Active Coupons</span> <br>
+                                                <ul class="service__list pull-right">
+                                                    <li><a href="#">Coupen</a></li>
+                                                    <li><a href="#">Edit</a></li>
+                                                    <li><a href="#">Delete</a></li>
+                                                </ul>
+                                            </div>
+                                        </div> 
+                                    </div>
+                                     <div class="service">
+                                        <div class="row">
+                                            <div class="col-sm-4">
+                                                 <h4><span class="fa fa-circle"></span>Product name</h4>
+                                                <span class="time">90 MIN</span>,<span class="status">Open for online booking</span>
+                                            </div>
+                                            <div class="col-sm-4">
+                                                <span class="price">$45.00</span><br>
+                                                <span class="price-special" >Special Price: $35.00</span>
+
+                                            </div>
+                                            <div class="col-sm-4">
+                                                <span class="active-coupen pull-right">9 Active Coupons</span>
+                                                <br>
+                                                <ul class="service__list pull-right">
+                                                    <li><a href="#">Coupen</a></li>
+                                                    <li><a href="#">Edit</a></li>
+                                                    <li><a href="#">Delete</a></li>
+                                                </ul>
+                                            </div>
+                                        </div> 
+                                    </div>
+                                     <div class="service">
+                                        <div class="row">
+                                            <div class="col-sm-4">
+                                                 <h4><span class="fa fa-circle online"></span>Product name</h4>
+                                                <span class="time">90 MIN</span>,<span class="status">Open for online booking</span>
+                                            </div>
+                                            <div class="col-sm-4">
+                                                <span class="price">$45.00</span><br>
+                                                <span class="price-special" >Special Price: $35.00</span>
+
+                                            </div>
+                                            <div class="col-sm-4">
+                                                <span class="active-coupen pull-right">9 Active Coupons</span>
+                                                <br>
+                                                <ul class="service__list pull-right">
+                                                    <li><a href="#">Coupen</a></li>
+                                                    <li><a href="#">Edit</a></li>
+                                                    <li><a href="#">Delete</a></li>
+                                                </ul>
+                                            </div>
+                                        </div> 
+                                    </div>
+                                </div>      
+                            </div>
+                            <div class="service-listing">
+                                <div class="inside-border">
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <div class="heading clearfix">
+                                                <h5 class="pull-left">Group name will go here</h5>
+                                                <a href="#" class="create-anchor pull-right"><i class="fa fa-plus"></i>Create Services</a>
+                                            </div> 
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="service">
+                                        <div class="row">
+                                            <div class="col-sm-4">
+                                                
+                                                 <h4><span class="fa fa-circle"></span>Product name</h4>
+                                                <span class="time">90 MIN</span>,<span class="status">Open for online booking</span>
+                                            </div>
+                                            <div class="col-sm-4">
+                                                <span class="price">$45.00</span><br>
+                                                <span class="price-special" >Special Price: $35.00</span>
+
+                                            </div>
+                                            <div class="col-sm-4">
+                                                <span class="active-coupen pull-right">9 Active Coupons</span> <br>
+                                                <ul class="service__list pull-right">
+                                                    <li><a href="#">Coupen</a></li>
+                                                    <li><a href="#">Edit</a></li>
+                                                    <li><a href="#">Delete</a></li>
+                                                </ul>
+                                            </div>
+                                        </div> 
+                                    </div>
+                                     <div class="service">
+                                        <div class="row">
+                                            <div class="col-sm-4">
+                                                 <h4><span class="fa fa-circle online"></span>Product name</h4>
+                                                <span class="time">90 MIN</span>,<span class="status">Open for online booking</span>
+                                            </div>
+                                            <div class="col-sm-4">
+                                                <span class="price">$45.00</span><br>
+                                                <span class="price-special" >Special Price: $35.00</span>
+
+                                            </div>
+                                            <div class="col-sm-4">
+                                                <span class="active-coupen pull-right">9 Active Coupons</span>
+                                                <br>
+                                                <ul class="service__list pull-right">
+                                                    <li><a href="#">Coupen</a></li>
+                                                    <li><a href="#">Edit</a></li>
+                                                    <li><a href="#">Delete</a></li>
+                                                </ul>
+                                            </div>
+                                        </div> 
+                                    </div>
+                                     <div class="service">
+                                        <div class="row">
+                                            <div class="col-sm-4">
+                                                 <h4><span class="fa fa-circle online"></span>Product name</h4>
+                                                <span class="time">90 MIN</span>,<span class="status">Open for online booking</span>
+                                            </div>
+                                            <div class="col-sm-4">
+                                                <span class="price">$45.00</span><br>
+                                                <span class="price-special" >Special Price: $35.00</span>
+
+                                            </div>
+                                            <div class="col-sm-4">
+                                                <span class="active-coupen pull-right">9 Active Coupons</span>
+                                                <br>
+                                                <ul class="service__list pull-right">
+                                                    <li><a href="#">Coupen</a></li>
+                                                    <li><a href="#">Edit</a></li>
+                                                    <li><a href="#">Delete</a></li>
+                                                </ul>
+                                            </div>
+                                        </div> 
+                                    </div>
+                                </div>      
+                            </div>
+                            <div class="margin-bottom-50"></div>
+    					</div> 
+					</div>
+					
+			     </div> 
+
+	    </div> 
+    </div> 
+
+	<div class="footer">
+		<div class="row">
+			<div class="col-xs-6 col-sm-6">
+				<ul class="list-inline pull-left left">
+					<li class="">
+						<a href=""><strong>14 Days</strong> Free Trial</a>
+					</li>
+					<li>
+						<button href="" class="btn btn-default-inverse">See Upgrad Options</button>
+					</li>
+				</ul>
+			</div>
+			<div class="col-xs-6 col-sm-6">
+				<ul class="list-inline pull-right right">
+					<li>
+						<a href="">Privacy</a>
+					</li>
+					<li class="">
+						<a href="">Terms</a>
+					</li>
+					
+				</ul>
+			</div>
+		</div>
+	</div>
+	
+</div> 
+                        
+                        
+                            
+                            <div class="modal fade" id="addservice" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                              <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                  <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">X-CLOSE</span></button>
+                                    <h5 class="modal-title" id="myModalLabel">Create A Group Name:</h5>
+                                  </div>
+                                  <div class="modal-body">
+                                    <div class="row">
+                                        <div class="col-sm-9">
+                                            <div class="form-group">
+                                            <label for="exampleInputEmail1">SERVICE NAME</label>
+                                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="">
+                                        </div>
+                                        </div>
+                                    </div>
+                                    <button type="submit" class="btn btn-green btn-padding-80 m-top-10">Save & Continue</button>
+                                  </div>
+                                  
+                                </div>
+                              </div>
+                            </div>
+                        
+                        
+
+ 
+ 
+            
+     <footer id="footer" class="container-fluid">
+       
+       
+     </footer>
+     
+     </div>
+     
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+     <script src="js/validator.js"></script>
+     <script src="js/jquery.sticky.js"></script>
+     <script src="js/stickyfloat.js"></script>
+     <script src="js/bootstrap-switch.js"></script>
+     <script src="js/jquery.timepicker.js"></script>
+     <script src="js/jquery.flagstrap.min.js"></script>
+     <script src="js/jquery.datetimepicker.full.min.js"></script>
+     
+   <script src="js/main.js"></script>
+ 
+   
+ </body>
+ </html>
+ 
+ 
+ 
+
+

@@ -1,0 +1,410 @@
+
+
+<!doctype html>
+
+
+
+
+<html class="no-js" lang="">
+
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+    <link rel="stylesheet" href="css/salesforce-lightning-design-system.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/jquery.timepicker.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/flags.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery.datetimepicker.css"/ >
+    
+    
+    
+    
+    <link rel="stylesheet" href="css/style.css">
+    
+    
+    
+</head>
+
+<body>
+    
+    <div class="wrap">
+       
+      
+
+<div class="container-fluid" id="dashboard">
+
+<div class="top-bar">
+	<div class="row">
+			
+			<nav class="navbar navbar-inverse" role="navigation">
+			  <div class="container-fluid">
+			    
+			    <div class="navbar-header">
+			      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+			        <span class="sr-only">Toggle navigation</span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			      </button>
+			    </div>
+
+			    
+			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			      <ul class="nav navbar-nav top-left-nav">
+			        <li class="">
+					<a href="" class=""><i class="glyphicon glyphicon-th"></i></a>
+					</li>
+					<li>
+						<a href="">Dashboard</a>
+					</li>
+					<li>
+						<a href="">Appointments</a>
+					</li>
+					<li>
+						<a href="">Clients</a>
+					</li>
+					<li>
+						<a href="">Invoices & Billings</a>
+					</li>
+					<li>
+						<a href="">Services & Products</a>
+					</li>
+			      </ul>
+			    
+			      <ul class="nav navbar-nav navbar-right top-right-nav">
+			        
+			        <li>
+					<a href="">Shahid Bashir</a>
+					</li>
+					<li class="">
+						<a href="" class="dropdown-toggle" data-toggle="dropdown"><i class="glyphicon glyphicon-cog"></i></a>
+						<ul class="dropdown-menu">
+	                        <li>
+	                            <a href="#">Profile</a>
+	                        </li>
+	                        <li>
+	                            <a href="#">Inbox</a>
+	                        </li>
+	                        <li>
+	                            <a href="#">Settings</a>
+	                        </li>
+	                    </ul>
+					</li>
+					<li class="">
+						<a href=""><i class="glyphicon glyphicon-circle-arrow-right"></i></a>
+					</li>
+
+			      </ul>
+			    </div>
+			  </div>
+			</nav>
+
+		</div>
+
+</div> 
+
+
+
+		
+
+    <div class="setting-wrapper">
+        
+          
+          <div class="settings-navigation">
+      
+      <ul class="nav navbar-nav side-nav">
+        <h4>Genral Setting</h4>
+              <li class="active">
+                  <a href="#">Dashboard</a>
+              </li>
+              <li>
+                  <a href="#">Employees</a>
+              </li>
+              <li>
+                  <a href="#">Services</a>
+              </li>
+              <li>
+                  <a href="#">Products</a>
+              </li>
+              <li>
+                  <a href="#">Closed Date</a>
+              </li>
+              <li>
+                  <a href="#">Roster</a>
+              </li>
+              <li>
+                  <a href="javascript:;" data-toggle="collapse" data-target="#demo" class="collapsed" aria-expanded="false"> Dropdown <i class="fa fa-fw fa-caret-down"></i></a>
+                  <ul id="demo" class="collapse list-unstyled" aria-expanded="false" style="height: 0px;">
+                      <li>
+                          <a href="#">Dropdown Item</a>
+                      </li>
+                      <li>
+                          <a href="#">Dropdown Item</a>
+                      </li>
+                  </ul>
+              </li>
+          </ul>
+        </div> 
+        
+        
+	    <div class="container-fluid">
+		    	<div class="settings-notification">
+		    		<p><img src="images/success-icon2.png" alt="">Sucess Message</p>
+		    		
+		    	</div>
+		    	
+                <header>
+		    		<div class="bread-crumb m-bottom-20">
+		    			<ul class="list-inline">
+		    				<li><a href="">PARENT ENTITY</a></li>
+		    				<li class="last-child"><a href="">PARENT RECORD NAME</a></li>
+		    			</ul>
+		    		</div>
+		    		<h4  class="bold">Add New Services <a href="#" class="back-to-service pull-right"><i class="fa fa-angle-double-left"></i>Back to Service List</a></h4>
+		    	</header>
+
+		    	<div class="row">
+
+		    		<div class="col-sm-12 no-padding">
+    					<div class="content settings">
+                            <div class="service-listing-product-add">
+                                <div class="inside-border">
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <div class="heading clearfix">
+                                                <h5 class="pull-left">Group name</h5>
+                                            </div> 
+                                        </div>
+                                    </div> 
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <form role="form">
+                                              <div class="form-group">
+                                                <label for="exampleInputEmail1">SERVICE NAME</label>
+                                                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="">
+                                              </div>
+                                              <div class="form-group">
+                                                <div class="col-sm-6 no-padding-left">
+                                                    <label for="exampleInputPassword1">AVAILABLE FOR</label>
+                                                    <select class="form-control">
+                                                          <option>Everyone</option>
+                                                          <option>2</option>
+                                                          <option>3</option>
+                                                          <option>4</option>
+                                                          <option>5</option>
+                                                        </select>
+                                                </div>
+                                                <div class="col-sm-6 no-padding-right">
+                                                    <label for="exampleInputPassword1">TREATMENT TYPE</label>
+                                                     <select class="form-control">
+                                                          <option>Everyone</option>
+                                                          <option>2</option>
+                                                          <option>3</option>
+                                                          <option>4</option>
+                                                          <option>5</option>
+                                                        </select>
+                                                </div>
+                                              </div>
+                                              <div class="clearfix"></div>
+                                              <div class="price-section clearfix m-bottom-30">
+                                                  <div class="form-group">
+                                                    <div class="col-sm-6 no-padding-left">
+                                                        <label for="exampleInputPassword1">PRICING TYPE</label>
+                                                        <select class="form-control no-margin">
+                                                          <option>Single</option>
+                                                          <option>2</option>
+                                                          <option>3</option>
+                                                          <option>4</option>
+                                                          <option>5</option>
+                                                        </select>
+
+                                                        <p>Use multiple to set pricing options within this service, for example different duration or quality options.</p>
+                                                    </div>
+                                                    <div class="col-sm-6 no-padding-right">
+                                                        <label for="exampleInputPassword1">PRICING TYPE</label>
+                                                         <select class="form-control no-margin">
+                                                          <option>Single</option>
+                                                          <option>2</option>
+                                                          <option>3</option>
+                                                          <option>4</option>
+                                                          <option>5</option>
+                                                        </select>
+                                                        <p>Use multiple to set pricing options within this service, for example different duration or quality options.</p>
+                                                    </div>
+                                                  </div>
+                                              </div> 
+                                              
+                                              <ul class="nav nav-tabs">
+                                                <li class="active"><a href="#usd" data-toggle="tab">USD $</a></li>
+                                                <li><a href="#ind" data-toggle="tab">Indian Rupees</a></li>
+                                                <li class="pull-right coupon"><a href="#coupons" data-toggle="tab">Coupon</a></li>
+                                              </ul>
+
+                                              
+                                              <div class="tab-content">
+                                                <div class="tab-pane active" id="usd">
+                                                    
+                                                    <table class="table m-top-30">
+                                                          <thead>
+                                                            <tr>
+                                                              <th class="no-padding-left">CAPTION<span class="optional">(optional)</span></th>
+                                                              <th class="no-padding-left">DURATION </th>
+                                                              <th class="no-padding-left">FULL PRICE</th>
+                                                              <th class="no-padding-left">SPECIAL PRICE</th>
+                                                            </tr>
+                                                          </thead>
+                                                          <tbody>
+                                                            <tr>
+                                                              <td>1</td>
+                                                              <td><span class="filled">mins</span></td>
+                                                              <td><span class="filled">$</span></td>
+                                                              <td><span class="filled">$</span></td>
+                                                            </tr>
+                                                            <tr>
+                                                              <td>2</td>
+                                                              <td><span class="filled">mins</span></td>
+                                                              <td><span class="filled">$</span></td>
+                                                              <td><span class="filled">$</span></td>
+                                                            </tr>
+                                                          </tbody>
+                                                        </table>
+                                                </div> 
+                                                <div class="tab-pane" id="ind">
+                                                    
+                                                    <table class="table m-top-30">
+                                                          <thead>
+                                                            <tr>
+                                                              <th>CAPTION<span class="optional">(optional)</span></th>
+                                                              <th>DURATION </th>
+                                                              <th>FULL PRICE</th>
+                                                              <th>SPECIAL PRICE</th>
+                                                            </tr>
+                                                          </thead>
+                                                          <tbody>
+                                                            <tr>
+                                                              <td>1</td>
+                                                              <td><span class="filled">mins</span></td>
+                                                              <td><span class="filled">$</span></td>
+                                                              <td><span class="filled">$</span></td>
+                                                            </tr>
+                                                            <tr>
+                                                              <td>2</td>
+                                                              <td><span class="filled">mins</span></td>
+                                                              <td><span class="filled">$</span></td>
+                                                              <td><span class="filled">$</span></td>
+                                                            </tr>
+                                                          </tbody>
+                                                        </table>
+                                                </div> 
+                                                <div class="tab-pane" id="coupons">
+                                                    
+                                                    <table class="table m-top-30">
+                                                          <thead>
+                                                            <tr>
+                                                              <th>CAPTION <span class="optional">(optional)</span></th>
+                                                              <th>DURATION </th>
+                                                              <th>FULL PRICE</th>
+                                                              <th>SPECIAL PRICE</th>
+                                                            </tr>
+                                                          </thead>
+                                                          <tbody>
+                                                            <tr>
+                                                              <td>1</td>
+                                                              <td><span class="filled">mins</span></td>
+                                                              <td><span class="filled">$</span></td>
+                                                              <td><span class="filled">$</span></td>
+                                                            </tr>
+                                                            <tr>
+                                                              <td>2</td>
+                                                              <td><span class="filled">mins</span></td>
+                                                              <td><span class="filled">$</span></td>
+                                                              <td><span class="filled">$</span></td>
+                                                            </tr>
+                                                          </tbody>
+                                                        </table>
+                                                </div> 
+                                              </div>
+                                              <button type="submit" class="btn btn-default m-top-10"><i class="fa fa-plus"></i>Add new option</button>
+                                              <span class="seprator"></span>
+                                              <button type="submit" class="btn btn-green btn-padding-80 m-top-10">Save & Continue</button>
+                                            </form>
+                                        </div>
+                                    </div> 
+                                </div>      
+                            </div>
+
+                            <div class="margin-bottom-50"></div>
+
+    					</div> 
+					</div>
+					
+			     </div> 
+
+	    </div> 
+    </div> 
+
+	<div class="footer">
+		<div class="row">
+			<div class="col-xs-6 col-sm-6">
+				<ul class="list-inline pull-left left">
+					<li class="">
+						<a href=""><strong>14 Days</strong> Free Trial</a>
+					</li>
+					<li>
+						<button href="" class="btn btn-default-inverse">See Upgrad Options</button>
+					</li>
+				</ul>
+			</div>
+			<div class="col-xs-6 col-sm-6">
+				<ul class="list-inline pull-right right">
+					<li>
+						<a href="">Privacy</a>
+					</li>
+					<li class="">
+						<a href="">Terms</a>
+					</li>
+					
+				</ul>
+			</div>
+		</div>
+	</div>
+	
+</div> 
+
+ 
+ 
+            
+     <footer id="footer" class="container-fluid">
+       
+       
+     </footer>
+     
+     </div>
+     
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+     <script src="js/validator.js"></script>
+     <script src="js/jquery.sticky.js"></script>
+     <script src="js/stickyfloat.js"></script>
+     <script src="js/bootstrap-switch.js"></script>
+     <script src="js/jquery.timepicker.js"></script>
+     <script src="js/jquery.flagstrap.min.js"></script>
+     <script src="js/jquery.datetimepicker.full.min.js"></script>
+     
+   <script src="js/main.js"></script>
+ 
+   
+ </body>
+ </html>
+ 
+ 
+ 
+
+

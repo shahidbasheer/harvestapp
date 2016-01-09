@@ -1,0 +1,277 @@
+
+
+<!-- @include html_Moudles/header.html -->
+
+<div class="container-fluid" id="dashboard">
+
+<!-- @include html_Moudles/dashboard-top.html -->
+
+		
+
+    <div class="setting-wrapper">
+        <!-- side navigation -->
+          
+          <div class="settings-navigation">
+      
+      <ul class="nav navbar-nav side-nav">
+        <h4>Genral Setting</h4>
+              <li class="active">
+                  <a href="#">Dashboard</a>
+              </li>
+              <li>
+                  <a href="#">Employees</a>
+              </li>
+              <li>
+                  <a href="#">Services</a>
+              </li>
+              <li>
+                  <a href="#">Products</a>
+              </li>
+              <li>
+                  <a href="#">Closed Date</a>
+              </li>
+              <li>
+                  <a href="#">Roster</a>
+              </li>
+              <li>
+                  <a href="javascript:;" data-toggle="collapse" data-target="#demo" class="collapsed" aria-expanded="false"> Dropdown <i class="fa fa-fw fa-caret-down"></i></a>
+                  <ul id="demo" class="collapse list-unstyled" aria-expanded="false" style="height: 0px;">
+                      <li>
+                          <a href="#">Dropdown Item</a>
+                      </li>
+                      <li>
+                          <a href="#">Dropdown Item</a>
+                      </li>
+                  </ul>
+              </li>
+          </ul>
+        </div> <!-- navigation End-->
+        
+        <!--  End side navigation -->
+	    <div class="container-fluid">
+		    	<div class="settings-notification">
+		    		<p><img src="images/success-icon2.png" alt="">Sucess Message</p>
+		    		<!-- <p><i class="fa fa-check-circle-o"></i>Sucess Message</p> -->
+		    	</div>
+		    	
+                <header>
+		    		<div class="bread-crumb m-bottom-20">
+		    			<ul class="list-inline">
+		    				<li><a href="">PARENT ENTITY</a></li>
+		    				<li class="last-child"><a href="">PARENT RECORD NAME</a></li>
+		    			</ul>
+		    		</div>
+		    		<h4  class="bold">Add New Services <a href="#" class="back-to-service pull-right"><i class="fa fa-angle-double-left"></i>Back to Service List</a></h4>
+		    	</header>
+
+		    	<div class="row">
+
+		    		<div class="col-sm-12 no-padding">
+    					<div class="content settings">
+                            <div class="service-listing-product-add">
+                                <div class="inside-border">
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <div class="heading clearfix">
+                                                <h5 class="pull-left">Group name</h5>
+                                            </div> <!-- heading -->
+                                        </div>
+                                    </div> <!-- row -->
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <form role="form">
+                                              <div class="form-group">
+                                                <label for="exampleInputEmail1">SERVICE NAME</label>
+                                                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="">
+                                              </div>
+                                              <div class="form-group">
+                                                <div class="col-sm-6 no-padding-left">
+                                                    <label for="exampleInputPassword1">AVAILABLE FOR</label>
+                                                    <select class="form-control">
+                                                          <option>Everyone</option>
+                                                          <option>2</option>
+                                                          <option>3</option>
+                                                          <option>4</option>
+                                                          <option>5</option>
+                                                        </select>
+                                                </div>
+                                                <div class="col-sm-6 no-padding-right">
+                                                    <label for="exampleInputPassword1">TREATMENT TYPE</label>
+                                                     <select class="form-control">
+                                                          <option>Everyone</option>
+                                                          <option>2</option>
+                                                          <option>3</option>
+                                                          <option>4</option>
+                                                          <option>5</option>
+                                                        </select>
+                                                </div>
+                                              </div>
+                                              <div class="clearfix"></div>
+                                              <div class="price-section clearfix m-bottom-30">
+                                                  <div class="form-group">
+                                                    <div class="col-sm-6 no-padding-left">
+                                                        <label for="exampleInputPassword1">PRICING TYPE</label>
+                                                        <select class="form-control no-margin">
+                                                          <option>Single</option>
+                                                          <option>2</option>
+                                                          <option>3</option>
+                                                          <option>4</option>
+                                                          <option>5</option>
+                                                        </select>
+
+                                                        <p>Use multiple to set pricing options within this service, for example different duration or quality options.</p>
+                                                    </div>
+                                                    <div class="col-sm-6 no-padding-right">
+                                                        <label for="exampleInputPassword1">PRICING TYPE</label>
+                                                         <select class="form-control no-margin">
+                                                          <option>Single</option>
+                                                          <option>2</option>
+                                                          <option>3</option>
+                                                          <option>4</option>
+                                                          <option>5</option>
+                                                        </select>
+                                                        <p>Use multiple to set pricing options within this service, for example different duration or quality options.</p>
+                                                    </div>
+                                                  </div>
+                                              </div> <!-- price-section -->
+                                              <!-- Nav tabs -->
+                                              <ul class="nav nav-tabs">
+                                                <li class="active"><a href="#usd" data-toggle="tab">USD $</a></li>
+                                                <li><a href="#ind" data-toggle="tab">Indian Rupees</a></li>
+                                                <li class="pull-right coupon"><a href="#coupons" data-toggle="tab">Coupon</a></li>
+                                              </ul>
+
+                                              <!-- Tab panes -->
+                                              <div class="tab-content">
+                                                <div class="tab-pane active" id="usd">
+                                                    
+                                                    <table class="table m-top-30">
+                                                          <thead>
+                                                            <tr>
+                                                              <th class="no-padding-left">CAPTION<span class="optional">(optional)</span></th>
+                                                              <th class="no-padding-left">DURATION </th>
+                                                              <th class="no-padding-left">FULL PRICE</th>
+                                                              <th class="no-padding-left">SPECIAL PRICE</th>
+                                                            </tr>
+                                                          </thead>
+                                                          <tbody>
+                                                            <tr>
+                                                              <td>1</td>
+                                                              <td><span class="filled">mins</span></td>
+                                                              <td><span class="filled">$</span></td>
+                                                              <td><span class="filled">$</span></td>
+                                                            </tr>
+                                                            <tr>
+                                                              <td>2</td>
+                                                              <td><span class="filled">mins</span></td>
+                                                              <td><span class="filled">$</span></td>
+                                                              <td><span class="filled">$</span></td>
+                                                            </tr>
+                                                          </tbody>
+                                                        </table>
+                                                </div> <!-- USD -->
+                                                <div class="tab-pane" id="ind">
+                                                    
+                                                    <table class="table m-top-30">
+                                                          <thead>
+                                                            <tr>
+                                                              <th>CAPTION<span class="optional">(optional)</span></th>
+                                                              <th>DURATION </th>
+                                                              <th>FULL PRICE</th>
+                                                              <th>SPECIAL PRICE</th>
+                                                            </tr>
+                                                          </thead>
+                                                          <tbody>
+                                                            <tr>
+                                                              <td>1</td>
+                                                              <td><span class="filled">mins</span></td>
+                                                              <td><span class="filled">$</span></td>
+                                                              <td><span class="filled">$</span></td>
+                                                            </tr>
+                                                            <tr>
+                                                              <td>2</td>
+                                                              <td><span class="filled">mins</span></td>
+                                                              <td><span class="filled">$</span></td>
+                                                              <td><span class="filled">$</span></td>
+                                                            </tr>
+                                                          </tbody>
+                                                        </table>
+                                                </div> <!-- ind -->
+                                                <div class="tab-pane" id="coupons">
+                                                    
+                                                    <table class="table m-top-30">
+                                                          <thead>
+                                                            <tr>
+                                                              <th>CAPTION <span class="optional">(optional)</span></th>
+                                                              <th>DURATION </th>
+                                                              <th>FULL PRICE</th>
+                                                              <th>SPECIAL PRICE</th>
+                                                            </tr>
+                                                          </thead>
+                                                          <tbody>
+                                                            <tr>
+                                                              <td>1</td>
+                                                              <td><span class="filled">mins</span></td>
+                                                              <td><span class="filled">$</span></td>
+                                                              <td><span class="filled">$</span></td>
+                                                            </tr>
+                                                            <tr>
+                                                              <td>2</td>
+                                                              <td><span class="filled">mins</span></td>
+                                                              <td><span class="filled">$</span></td>
+                                                              <td><span class="filled">$</span></td>
+                                                            </tr>
+                                                          </tbody>
+                                                        </table>
+                                                </div> <!-- Coupon -->
+                                              </div>
+                                              <button type="submit" class="btn btn-default m-top-10"><i class="fa fa-plus"></i>Add new option</button>
+                                              <span class="seprator"></span>
+                                              <button type="submit" class="btn btn-green btn-padding-80 m-top-10">Save & Continue</button>
+                                            </form>
+                                        </div>
+                                    </div> <!-- row -->
+                                </div>      
+                            </div><!-- services-listing-product -->
+
+                            <div class="margin-bottom-50"></div>
+
+    					</div> <!-- content -->
+					</div>
+					
+			     </div> <!-- row -->
+
+	    </div> <!-- container-fluid -->
+    </div> <!-- setting-wrapper -->
+
+	<div class="footer">
+		<div class="row">
+			<div class="col-xs-6 col-sm-6">
+				<ul class="list-inline pull-left left">
+					<li class="">
+						<a href=""><strong>14 Days</strong> Free Trial</a>
+					</li>
+					<li>
+						<button href="" class="btn btn-default-inverse">See Upgrad Options</button>
+					</li>
+				</ul>
+			</div>
+			<div class="col-xs-6 col-sm-6">
+				<ul class="list-inline pull-right right">
+					<li>
+						<a href="">Privacy</a>
+					</li>
+					<li class="">
+						<a href="">Terms</a>
+					</li>
+					
+				</ul>
+			</div>
+		</div>
+	</div>
+	
+</div> <!-- container-fluid -->
+
+ <!-- @include html_Moudles/footer.html -->
+
+

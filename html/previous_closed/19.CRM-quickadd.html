@@ -1,0 +1,594 @@
+
+
+<!-- @include html_Moudles/header.html -->
+
+<div class="container-fluid" id="dashboard">
+	
+    <!-- @include html_Moudles/dashboard-top.html -->
+    
+		
+
+    <div class="setting-wrapper">
+        <!-- side navigation -->
+
+        <div class="settings-navigation">
+      
+      <ul class="nav navbar-nav side-nav">
+        <h4>Genral Setting</h4>
+              <li class="active">
+                  <a href="#">Dashboard</a>
+              </li>
+              <li>
+                  <a href="#">Employees</a>
+              </li>
+              <li>
+                  <a href="#">Services</a>
+              </li>
+              <li>
+                  <a href="#">Products</a>
+              </li>
+              <li>
+                  <a href="#">Closed Date</a>
+              </li>
+              <li>
+                  <a href="#">Roster</a>
+              </li>
+              <li>
+                  <a href="javascript:;" data-toggle="collapse" data-target="#demo" class="collapsed" aria-expanded="false"> Dropdown <i class="fa fa-fw fa-caret-down"></i></a>
+                  <ul id="demo" class="collapse list-unstyled" aria-expanded="false" style="height: 0px;">
+                      <li>
+                          <a href="#">Dropdown Item</a>
+                      </li>
+                      <li>
+                          <a href="#">Dropdown Item</a>
+                      </li>
+                  </ul>
+              </li>
+          </ul>
+        </div> <!-- navigation End-->
+
+
+        <!-- side navigation -->
+	    <div class="container-fluid">
+		    	<div class="settings-notification">
+		    		<p><img src="images/success-icon2.png" alt="">Sucess Message</p>
+		    		<!-- <p><i class="fa fa-check-circle-o"></i>Sucess Message</p> -->
+		    	</div>
+		    	
+              <header class="full">
+      		    		<div class="bread-crumb m-bottom-20">
+      		    			<ul class="list-inline">
+      		    				<li><a href="">PARENT ENTITY</a></li>
+      		    				<li class="last-child"><a href="">PARENT RECORD NAME</a></li>
+      		    			</ul>
+      		    		</div>
+      		    		<h4  class="bold">Clients
+                    <a href="#" class="create-anchor s-t pull-right" data-toggle="modal" data-target="#add-client"><i class="fa fa-plus" ></i>Import clients / Organization</a>
+                    <a href="#" class="create-anchor s-t pull-right" data-toggle="modal" data-target="#add-client"><i class="fa fa-plus" ></i>Add Client / Organization</a>
+                </h4>
+                <div class="seprater-100 m-top-10"></div>
+		    	   </header>
+                
+		    	<div class="row">
+
+		    		<div class="col-sm-12 no-padding">
+    					<div class="content crm-listing ">
+                              <div class="well clearfix">
+                                <ul class="list-inline view-icon">
+                                    <li class="">
+                                        <a href="" class=""><i class="glyphicon glyphicon-th-list"></i></a>
+                                    </li>
+                                    <li class="">
+                                        <a href="" class=""><i class="glyphicon glyphicon-th"></i></a>
+                                    </li>
+                                </ul>
+                                  <form class="pull-right search-form">
+                                    <input type="text" class="form-control" placeholder="Search...">
+                                    <i class="glyphicon glyphicon-search"></i>
+                                  </form>
+                                  <ul class="list-inline pull-right">
+                                      <li class="dropdown"><a href="" class="btn crm-listing__btn" class="dropdown-toggle" data-toggle="dropdown">Filter by this <i class="glyphicon glyphicon-menu-down"></i></a>
+                                       <ul class="dropdown-menu">
+                                         <li><a href="#">Action</a></li>
+                                         <li><a href="#">Another action</a></li>
+                                         <li><a href="#">Something else here</a></li>
+                                         <li class="divider"></li>
+                                         <li class="dropdown-header">Nav header</li>
+                                         <li><a href="#">Separated link</a></li>
+                                         <li><a href="#">One more separated link</a></li>
+                                       </ul>
+                                      </li>
+                                      <li class="dropdown"><a href="" class="btn crm-listing__btn" class="dropdown-toggle" data-toggle="dropdown">Filter by this <i class="glyphicon glyphicon-menu-down"></i></a>
+                                       <ul class="dropdown-menu">
+                                         <li><a href="#">Action</a></li>
+                                         <li><a href="#">Another action</a></li>
+                                         <li><a href="#">Something else here</a></li>
+                                         <li class="divider"></li>
+                                         <li class="dropdown-header">Nav header</li>
+                                         <li><a href="#">Separated link</a></li>
+                                         <li><a href="#">One more separated link</a></li>
+                                       </ul>
+                                      </li>
+                                      <li class="dropdown"><a href="" class="btn crm-listing__btn" class="dropdown-toggle" data-toggle="dropdown">Filter by this <i class="glyphicon glyphicon-menu-down"></i></a>
+                                       <ul class="dropdown-menu">
+                                         <li><a href="#">Action</a></li>
+                                         <li><a href="#">Another action</a></li>
+                                         <li><a href="#">Something else here</a></li>
+                                         <li class="divider"></li>
+                                         <li class="dropdown-header">Nav header</li>
+                                         <li><a href="#">Separated link</a></li>
+                                         <li><a href="#">One more separated link</a></li>
+                                       </ul>
+                                      </li>
+
+                                  </ul>
+
+                              </div> <!-- well -->
+                                 <table class="table crm-listing_table">
+                                       <tbody>
+                                         <tr class="clickable"  onClick="document.location.href='#';">
+                                           <td >
+                                             <a href="#" class="avatar"><img src="images/avatar.jpg"></a>
+                                             <div class="user-data">
+                                               <span class="name">Brian Halligan</span>
+                                             <span class="job-title">HUBSPOT CEO AND FOUNDER</span>
+                                             </div>
+                                           </td>
+                                           <td>
+                                             <span class="email">email@example.com</span>
+                                             <span class="phone">989-456-7890</span>
+                                           </td>
+                                           <td>
+                                              <span class="balance">$45.0000</span>
+                                              <span class="status">11 Open Leads</span>
+                                            </td>
+                                            <td>
+                                              <ul class="list-unstyled">
+                                                <li class="dropdown"><a href="" class="btn btn-block crm-listing__btn-2" class="dropdown-toggle" data-toggle="dropdown">Quick Action <i class="glyphicon glyphicon-menu-down"></i></a>
+                                                 <ul class="dropdown-menu">
+                                                   <li><a href="#">Workspace</a></li>
+                                                   <li><a href="#">Leads</a></li>
+                                                   <li><a href="#">Schedule a Appointment</a></li>
+                                                   <li><a href="#">Followup Call link</a></li>
+                                                   <li><a href="#">Invoice</a></li>
+                                                   <li><a href="#">Notes & Comments</a></li>
+                                                   <li><a href="#">Membership</a></li>
+                                                 </ul>
+                                              </ul>
+                                            </td>
+                                         </tr>
+                                         <tr class="clickable"  onClick="document.location.href='#';">
+                                           <td>
+                                             <a href="#" class="avatar"><img src="images/avatar.jpg"></a>
+                                             <div class="user-data">
+                                               <span class="name">Brian Halligan</span>
+                                             <span class="job-title">HUBSPOT CEO AND FOUNDER</span>
+                                             </div>
+                                           </td>
+                                           <td>
+                                             <span class="email">email@example.com</span>
+                                             <span class="phone">989-456-7890</span>
+                                           </td>
+                                           <td>
+                                              <span class="balance">$45.0000</span>
+                                              <span class="status">11 Open Leads</span>
+                                            </td>
+                                            <td>
+                                              <ul class="list-unstyled">
+                                                <li class="dropdown"><a href="" class="btn btn-block crm-listing__btn-2" class="dropdown-toggle" data-toggle="dropdown">Quick Action <i class="glyphicon glyphicon-menu-down"></i></a>
+                                                 <ul class="dropdown-menu">
+                                                   <li><a href="#">Workspace</a></li>
+                                                   <li><a href="#">Leads</a></li>
+                                                   <li><a href="#">Schedule a Appointment</a></li>
+                                                   <li><a href="#">Followup Call link</a></li>
+                                                   <li><a href="#">Invoice</a></li>
+                                                   <li><a href="#">Notes & Comments</a></li>
+                                                   <li><a href="#">Membership</a></li>
+                                                 </ul>
+                                              </ul>
+                                            </td>
+                                         </tr>
+                                         <tr class="clickable"  onClick="document.location.href='#';">
+                                           <td>
+                                             <a href="#" class="avatar"><img src="images/avatar.jpg"></a>
+                                             <div class="user-data">
+                                               <span class="name">Brian Halligan</span>
+                                             <span class="job-title">HUBSPOT CEO AND FOUNDER</span>
+                                             </div>
+                                           </td>
+                                           <td>
+                                             <span class="email">email@example.com</span>
+                                             <span class="phone">989-456-7890</span>
+                                           </td>
+                                           <td>
+                                              <span class="balance">$45.0000</span>
+                                              <span class="status">11 Open Leads</span>
+                                            </td>
+                                            <td>
+                                              <ul class="list-unstyled">
+                                                <li class="dropdown"><a href="" class="btn btn-block crm-listing__btn-2" class="dropdown-toggle" data-toggle="dropdown">Quick Action <i class="glyphicon glyphicon-menu-down"></i></a>
+                                                 <ul class="dropdown-menu">
+                                                   <li><a href="#">Workspace</a></li>
+                                                   <li><a href="#">Leads</a></li>
+                                                   <li><a href="#">Schedule a Appointment</a></li>
+                                                   <li><a href="#">Followup Call link</a></li>
+                                                   <li><a href="#">Invoice</a></li>
+                                                   <li><a href="#">Notes & Comments</a></li>
+                                                   <li><a href="#">Membership</a></li>
+                                                 </ul>
+                                              </ul>
+                                            </td>
+                                         </tr>
+                                         <tr class="clickable"  onClick="document.location.href='#';">
+                                           <td>
+                                             <a href="#" class="avatar"><img src="images/avatar.jpg"></a>
+                                             <div class="user-data">
+                                               <span class="name">Brian Halligan</span>
+                                             <span class="job-title">HUBSPOT CEO AND FOUNDER</span>
+                                             </div>
+                                           </td>
+                                           <td>
+                                             <span class="email">email@example.com</span>
+                                             <span class="phone">989-456-7890</span>
+                                           </td>
+                                           <td>
+                                              <span class="balance">$45.0000</span>
+                                              <span class="status">11 Open Leads</span>
+                                            </td>
+                                            <td>
+                                              <ul class="list-unstyled">
+                                                <li class="dropdown"><a href="" class="btn btn-block crm-listing__btn-2" class="dropdown-toggle" data-toggle="dropdown">Quick Action <i class="glyphicon glyphicon-menu-down"></i></a>
+                                                 <ul class="dropdown-menu">
+                                                   <li><a href="#">Workspace</a></li>
+                                                   <li><a href="#">Leads</a></li>
+                                                   <li><a href="#">Schedule a Appointment</a></li>
+                                                   <li><a href="#">Followup Call link</a></li>
+                                                   <li><a href="#">Invoice</a></li>
+                                                   <li><a href="#">Notes & Comments</a></li>
+                                                   <li><a href="#">Membership</a></li>
+                                                 </ul>
+                                              </ul>
+                                            </td>
+                                         </tr>
+                                         <tr class="clickable"  onClick="document.location.href='#';">
+                                           <td>
+                                             <a href="#" class="avatar"><img src="images/avatar.jpg"></a>
+                                             <div class="user-data">
+                                               <span class="name">Brian Halligan</span>
+                                             <span class="job-title">HUBSPOT CEO AND FOUNDER</span>
+                                             </div>
+                                           </td>
+                                           <td>
+                                             <span class="email">email@example.com</span>
+                                             <span class="phone">989-456-7890</span>
+                                           </td>
+                                           <td>
+                                              <span class="balance">$45.0000</span>
+                                              <span class="status">11 Open Leads</span>
+                                            </td>
+                                            <td>
+                                              <ul class="list-unstyled">
+                                                <li class="dropdown"><a href="" class="btn btn-block crm-listing__btn-2" class="dropdown-toggle" data-toggle="dropdown">Quick Action <i class="glyphicon glyphicon-menu-down"></i></a>
+                                                 <ul class="dropdown-menu">
+                                                   <li><a href="#">Workspace</a></li>
+                                                   <li><a href="#">Leads</a></li>
+                                                   <li><a href="#">Schedule a Appointment</a></li>
+                                                   <li><a href="#">Followup Call link</a></li>
+                                                   <li><a href="#">Invoice</a></li>
+                                                   <li><a href="#">Notes & Comments</a></li>
+                                                   <li><a href="#">Membership</a></li>
+                                                 </ul>
+                                              </ul>
+                                            </td>
+                                         </tr>
+                                       </tbody>
+                                     </table> 
+                            <div class="margin-bottom-50"></div>
+    					</div> <!-- content settings-->
+
+              <div class="content crm-listing ">
+                              <div class="well clearfix">
+                                <ul class="list-inline view-icon">
+                                    <li class="">
+                                        <a href="" class=""><i class="glyphicon glyphicon-th-list"></i></a>
+                                    </li>
+                                    <li class="">
+                                        <a href="" class=""><i class="glyphicon glyphicon-th"></i></a>
+                                    </li>
+                                </ul>
+                                  <form class="pull-right search-form">
+                                    <input type="text" class="form-control" placeholder="Search...">
+                                    <i class="glyphicon glyphicon-search"></i>
+                                  </form>
+                                  <ul class="list-inline pull-right">
+                                      <li>
+                                          <select class="form-control">
+                                            <option>Filter by This</option>
+                                            <option>Action</option>
+                                            <option>Another</option>
+                                            <option>Something</option>
+                                          </select>
+                                      </li>
+                                      <li class="dropdown">
+                                          <select class="form-control">
+                                            <option>Filter by This</option>
+                                            <option>Action</option>
+                                            <option>Another</option>
+                                            <option>Something</option>
+                                          </select>
+                                      </li>
+                                      <li class="dropdown">
+                                          <select class="form-control">
+                                            <option>Filter by This</option>
+                                            <option>Action</option>
+                                            <option>Another</option>
+                                            <option>Something</option>
+                                          </select>
+                                      </li>
+
+                                  </ul>
+
+                              </div> <!-- well -->
+                                 <table class="table crm-listing_table">
+                                       <tbody>
+                                         <tr class="clickable"  onClick="document.location.href='#';">
+                                           <td >
+                                             <a href="#" class="avatar"><img src="images/avatar.jpg"></a>
+                                             <div class="user-data">
+                                               <span class="name">Brian Halligan</span>
+                                             <span class="job-title">HUBSPOT CEO AND FOUNDER</span>
+                                             </div>
+                                           </td>
+                                           <td>
+                                             <span class="email">email@example.com</span>
+                                             <span class="phone">989-456-7890</span>
+                                           </td>
+                                           <td>
+                                              <span class="balance">$45.0000</span>
+                                              <span class="status">11 Open Leads</span>
+                                            </td>
+                                            <td>
+                                              <ul class="list-unstyled">
+                                                <li class="dropdown"><a href="" class="btn btn-block crm-listing__btn-2" class="dropdown-toggle" data-toggle="dropdown">Quick Action <i class="glyphicon glyphicon-menu-down"></i></a>
+                                                 <ul class="dropdown-menu">
+                                                   <li><a href="#">Workspace</a></li>
+                                                   <li><a href="#">Leads</a></li>
+                                                   <li><a href="#">Schedule a Appointment</a></li>
+                                                   <li><a href="#">Followup Call link</a></li>
+                                                   <li><a href="#">Invoice</a></li>
+                                                   <li><a href="#">Notes & Comments</a></li>
+                                                   <li><a href="#">Membership</a></li>
+                                                 </ul>
+                                              </ul>
+                                            </td>
+                                         </tr>
+                                         <tr class="clickable"  onClick="document.location.href='#';">
+                                           <td>
+                                             <a href="#" class="avatar"><img src="images/avatar.jpg"></a>
+                                             <div class="user-data">
+                                               <span class="name">Brian Halligan</span>
+                                             <span class="job-title">HUBSPOT CEO AND FOUNDER</span>
+                                             </div>
+                                           </td>
+                                           <td>
+                                             <span class="email">email@example.com</span>
+                                             <span class="phone">989-456-7890</span>
+                                           </td>
+                                           <td>
+                                              <span class="balance">$45.0000</span>
+                                              <span class="status">11 Open Leads</span>
+                                            </td>
+                                            <td>
+                                              <ul class="list-unstyled">
+                                                <li class="dropdown"><a href="" class="btn btn-block crm-listing__btn-2" class="dropdown-toggle" data-toggle="dropdown">Quick Action <i class="glyphicon glyphicon-menu-down"></i></a>
+                                                 <ul class="dropdown-menu">
+                                                   <li><a href="#">Workspace</a></li>
+                                                   <li><a href="#">Leads</a></li>
+                                                   <li><a href="#">Schedule a Appointment</a></li>
+                                                   <li><a href="#">Followup Call link</a></li>
+                                                   <li><a href="#">Invoice</a></li>
+                                                   <li><a href="#">Notes & Comments</a></li>
+                                                   <li><a href="#">Membership</a></li>
+                                                 </ul>
+                                              </ul>
+                                            </td>
+                                         </tr>
+                                         <tr class="clickable"  onClick="document.location.href='#';">
+                                           <td>
+                                             <a href="#" class="avatar"><img src="images/avatar.jpg"></a>
+                                             <div class="user-data">
+                                               <span class="name">Brian Halligan</span>
+                                             <span class="job-title">HUBSPOT CEO AND FOUNDER</span>
+                                             </div>
+                                           </td>
+                                           <td>
+                                             <span class="email">email@example.com</span>
+                                             <span class="phone">989-456-7890</span>
+                                           </td>
+                                           <td>
+                                              <span class="balance">$45.0000</span>
+                                              <span class="status">11 Open Leads</span>
+                                            </td>
+                                            <td>
+                                              <ul class="list-unstyled">
+                                                <li class="dropdown"><a href="" class="btn btn-block crm-listing__btn-2" class="dropdown-toggle" data-toggle="dropdown">Quick Action <i class="glyphicon glyphicon-menu-down"></i></a>
+                                                 <ul class="dropdown-menu">
+                                                   <li><a href="#">Workspace</a></li>
+                                                   <li><a href="#">Leads</a></li>
+                                                   <li><a href="#">Schedule a Appointment</a></li>
+                                                   <li><a href="#">Followup Call link</a></li>
+                                                   <li><a href="#">Invoice</a></li>
+                                                   <li><a href="#">Notes & Comments</a></li>
+                                                   <li><a href="#">Membership</a></li>
+                                                 </ul>
+                                              </ul>
+                                            </td>
+                                         </tr>
+                                         <tr class="clickable"  onClick="document.location.href='#';">
+                                           <td>
+                                             <a href="#" class="avatar"><img src="images/avatar.jpg"></a>
+                                             <div class="user-data">
+                                               <span class="name">Brian Halligan</span>
+                                             <span class="job-title">HUBSPOT CEO AND FOUNDER</span>
+                                             </div>
+                                           </td>
+                                           <td>
+                                             <span class="email">email@example.com</span>
+                                             <span class="phone">989-456-7890</span>
+                                           </td>
+                                           <td>
+                                              <span class="balance">$45.0000</span>
+                                              <span class="status">11 Open Leads</span>
+                                            </td>
+                                            <td>
+                                              <ul class="list-unstyled">
+                                                <li class="dropdown"><a href="" class="btn btn-block crm-listing__btn-2" class="dropdown-toggle" data-toggle="dropdown">Quick Action <i class="glyphicon glyphicon-menu-down"></i></a>
+                                                 <ul class="dropdown-menu">
+                                                   <li><a href="#">Workspace</a></li>
+                                                   <li><a href="#">Leads</a></li>
+                                                   <li><a href="#">Schedule a Appointment</a></li>
+                                                   <li><a href="#">Followup Call link</a></li>
+                                                   <li><a href="#">Invoice</a></li>
+                                                   <li><a href="#">Notes & Comments</a></li>
+                                                   <li><a href="#">Membership</a></li>
+                                                 </ul>
+                                              </ul>
+                                            </td>
+                                         </tr>
+                                         <tr class="clickable"  onClick="document.location.href='#';">
+                                           <td>
+                                             <a href="#" class="avatar"><img src="images/avatar.jpg"></a>
+                                             <div class="user-data">
+                                               <span class="name">Brian Halligan</span>
+                                             <span class="job-title">HUBSPOT CEO AND FOUNDER</span>
+                                             </div>
+                                           </td>
+                                           <td>
+                                             <span class="email">email@example.com</span>
+                                             <span class="phone">989-456-7890</span>
+                                           </td>
+                                           <td>
+                                              <span class="balance">$45.0000</span>
+                                              <span class="status">11 Open Leads</span>
+                                            </td>
+                                            <td>
+                                              <ul class="list-unstyled">
+                                                <li class="dropdown"><a href="" class="btn btn-block crm-listing__btn-2" class="dropdown-toggle" data-toggle="dropdown">Quick Action <i class="glyphicon glyphicon-menu-down"></i></a>
+                                                 <ul class="dropdown-menu">
+                                                   <li><a href="#">Workspace</a></li>
+                                                   <li><a href="#">Leads</a></li>
+                                                   <li><a href="#">Schedule a Appointment</a></li>
+                                                   <li><a href="#">Followup Call link</a></li>
+                                                   <li><a href="#">Invoice</a></li>
+                                                   <li><a href="#">Notes & Comments</a></li>
+                                                   <li><a href="#">Membership</a></li>
+                                                 </ul>
+                                              </ul>
+                                            </td>
+                                         </tr>
+                                       </tbody>
+                                     </table> 
+                            <div class="margin-bottom-50"></div>
+              </div> <!-- content settings-->
+					</div>
+					
+			     </div> <!-- row -->
+
+	    </div> <!-- container-fluid -->
+    </div> <!-- setting-wrapper -->
+
+	<div class="footer">
+		<div class="row">
+			<div class="col-xs-6 col-sm-6">
+				<ul class="list-inline pull-left left">
+					<li class="">
+						<a href=""><strong>14 Days</strong> Free Trial</a>
+					</li>
+					<li>
+						<button href="" class="btn btn-default-inverse">See Upgrad Options</button>
+					</li>
+				</ul>
+			</div>
+			<div class="col-xs-6 col-sm-6">
+				<ul class="list-inline pull-right right">
+					<li>
+						<a href="">Privacy</a>
+					</li>
+					<li class="">
+						<a href="">Terms</a>
+					</li>
+					
+				</ul>
+			</div>
+		</div>
+	</div>
+	
+</div> <!-- container-fluid -->
+                        
+                        <!-- Without Border -->
+                            <!-- Modal -->
+                            <div class="modal fade" id="add-client" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                              <div class="modal-dialog" role="document">
+                                <div class="modal-content clearfix">
+                                  <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">X-CLOSE</span></button>
+                                    <h4 class="modal-title" id="myModalLabel">Add a contact:</h4>
+                                  </div>
+                                  <div class="modal-body">
+                                   <form role="form" class="crm-listing__form">
+                                      <div class="form-group">
+                                       <div class="col-sm-12">
+                                         <label for="exampleInputEmail1">Email</label>
+                                         <input type="email" class="form-control" id="exampleInputEmail1" placeholder="">
+                                       </div>
+                                     </div>
+                                     <div class="form-group">
+                                       <div class="col-sm-6">
+                                         <label for="exampleInput1">First Name</label>
+                                         <input type="password" class="form-control" id="exampleInputPassword1" placeholder="">    
+                                       </div>    
+                                       <div class="col-sm-6">
+                                         <label for="exampleInput1">Last Name</label>
+                                         <input type="password" class="form-control" id="exampleInputPassword1" placeholder="">    
+                                       </div>
+                                     </div>
+                                      <div class="form-group">
+                                       <div class="col-sm-12">
+                                         <label for="account-manager">Account Manager</label>
+                                         <select class="form-control" id="account-manager">
+                                            <option>Michael C. Tyner (michaelctyner@gmail.com)</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                            <option>5</option>
+                                          </select>
+                                       </div>
+                                     </div>
+                                      <div class="form-group">
+                                       <div class="col-sm-12">
+                                         <label for="exampleInputEmail1">Job Title</label>
+                                         <input type="email" class="form-control" id="exampleInputEmail1" placeholder="">
+                                       </div>
+                                     </div>
+                                     <div class="form-group">
+                                       <div class="col-sm-12">
+                                         <label for="exampleInputEmail1">Phone Number</label>
+                                         <input type="email" class="form-control" id="exampleInputEmail1" placeholder="">
+                                       </div>
+                                     </div>
+                                     <div class="col-sm-12">
+                                         <button type="submit" class="btn btn-light-blue">Add Contact</button>
+                                         <button type="submit" class="btn crm-listing__btn-2">Cancle</button>
+                                     </div>
+                                   </form>  
+                                  </div>
+                                  
+                                </div>
+                              </div>
+                            </div>
+                        <!-- Without Border -->
+                        
+
+ <!-- @include html_Moudles/footer.html -->
+
+

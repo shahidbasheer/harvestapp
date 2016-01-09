@@ -1,0 +1,73 @@
+/* 
+ * ----------------------------------------------------------------------------------------
+ * Global Style.
+ * ----------------------------------------------------------------------------------------
+ */
+ body {
+    font-family: "Salesforce Sans", Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+ }
+
+h1 {
+    font-family: "Salesforce Sans", Arial, sans-serif;
+    font-size: 42px;    
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+}
+h2 {
+    font-family: "Salesforce Sans", Arial, sans-serif;
+    font-size: 30px;
+}
+h3 {
+    font-family: "Salesforce Sans", Arial, sans-serif;
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+h4 {
+    font-family: "Salesforce Sans", Arial, sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+h5 {
+    font-family: "Salesforce Sans", Arial, sans-serif;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+h6 {
+    font-family: "Salesforce Sans", Arial, sans-serif;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+p {
+  font-family: "Salesforce Sans", Arial, sans-serif;
+  font-size: 16px;
+  margin: 0 0 10px;
+}
+
+
+
+$anchor-color: #337ab7;
+a {
+    font-family: "Salesforce Sans", Arial, sans-serif;
+    color: $anchor-color;
+    font-size: 12px;
+    background-color: transparent;
+    &:hover {
+        color: darken($anchor-color, 10%);
+        text-decoration: none;
+    }
+    &:focus {
+        color: darken($anchor-color, 10%);
+        outline: thin dotted;
+        outline: 5px auto -webkit-focus-ring-color;
+        outline-offset: -2px;
+    }
+}

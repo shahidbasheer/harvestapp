@@ -1,0 +1,427 @@
+
+
+<!-- @include html_Moudles/header.html -->
+
+<div class="container-fluid" id="dashboard">
+	
+  <!-- @include html_Moudles/dashboard-top.html -->
+  
+		
+
+    <div class="setting-wrapper">
+        <!-- side navigation  -->
+        
+
+        <div class="settings-navigation">
+      
+      <ul class="nav navbar-nav side-nav">
+        <h4>Genral Setting</h4>
+              <li class="active">
+                  <a href="#">Dashboard</a>
+              </li>
+              <li>
+                  <a href="#">Employees</a>
+              </li>
+              <li>
+                  <a href="#">Services</a>
+              </li>
+              <li>
+                  <a href="#">Products</a>
+              </li>
+              <li>
+                  <a href="#">Closed Date</a>
+              </li>
+              <li>
+                  <a href="#">Roster</a>
+              </li>
+              <li>
+                  <a href="javascript:;" data-toggle="collapse" data-target="#demo" class="collapsed" aria-expanded="false"> Dropdown <i class="fa fa-fw fa-caret-down"></i></a>
+                  <ul id="demo" class="collapse list-unstyled" aria-expanded="false" style="height: 0px;">
+                      <li>
+                          <a href="#">Dropdown Item</a>
+                      </li>
+                      <li>
+                          <a href="#">Dropdown Item</a>
+                      </li>
+                  </ul>
+              </li>
+          </ul>
+        </div> <!-- navigation End-->
+
+        
+        <!--  End side navigation  -->
+	    <div class="container-fluid">
+		    	<div class="settings-notification">
+		    		<p><img src="images/success-icon2.png" alt="">Sucess Message</p>
+		    		<!-- <p><i class="fa fa-check-circle-o"></i>Sucess Message</p> -->
+		    	</div>
+		    	
+                <header>
+		    		<div class="bread-crumb m-bottom-20">
+		    			<ul class="list-inline">
+		    				<li><a href="">PARENT ENTITY</a></li>
+		    				<li class="last-child"><a href="">PARENT RECORD NAME</a></li>
+		    			</ul>
+		    		</div>
+		    	<h4  class="bold">Stafff Members<a href="#" class="create-anchor s-t"><i class="fa fa-plus"></i>Create Services</a> </h4>
+		    		<p>Here you can add basic detials about your business, and manage international setting such as time zone and currency.</p>
+		    	</header>
+          
+		    	<div class="row">
+
+		    		<div class="col-sm-12 no-padding">
+    					<div class="content settings">
+                            <div class="staff-members">
+                                <div class="staff-members-sidebar">
+                                     <div class="employee-adding">
+                                        <h4  class="bold">Stafff Members <button type="button" class="close pull-right" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">X-CLOSE</span></button></h4>
+                                                <p>Here you can add basic detials about your business, and manage international setting such as time zone and currency.</p>
+                                       <form role="form">
+                                         <div class="form-group">
+                                            <div class="col-sm-6">
+                                                <label for="first_name">FIRST NAME</label>
+                                                <input type="text" class="form-control" id="first_name" placeholder="">
+                                            </div>
+                                            <div class="col-sm-6 m-bottom-20">
+                                                <label for="last_name">LAST NAME</label>
+                                                <input type="text" class="form-control" id="last_name" placeholder="">
+                                            </div>
+                                         </div>
+                                         <div class="form-group">
+                                            <div class="col-sm-12 m-bottom-20">
+                                               <label for="exampleInputPassword1">MOBILE NUMBER</label>
+                                               <input type="text" class="form-control" id="exampleInputPassword1" placeholder="">
+                                            </div>
+                                         </div>
+                                        <div class="col-sm-12">
+                                             <div class="checkbox">
+                                                <label>
+                                                    <input type="checkbox">ENABLE LOGIN ACCESS <small>- When saved, the employee will recive email intructions to setup their own ligin password</small>
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12">
+                                             <div class="checkbox">
+                                                <label>
+                                                    <input type="checkbox">ENABLE APPOINTMENT BOOKING <small> - Staff Member can book the and view and reschedule it.</small>
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                        <span class="seprator"></span>
+                                        <p class="working">WORKING HOURS</p>
+                                        <div id="table">
+                                            <table class="table">
+                                                  <thead>
+                                                    <tr>
+                                                      <th class="no-padding-left">DAY</th>
+                                                      <th class="no-padding-left">START </th>
+                                                      <th class="no-padding-left">FINISH</th>
+                                                    </tr>
+                                                  </thead>
+                                                  <tbody>
+                                                    <tr>
+                                                      <td>
+                                                        <div class="checkbox">
+                                                            <label>
+                                                                <input type="checkbox">Sunday
+                                                            </label>
+                                                        </div>
+                                                      </td>
+                                                      <td class="disabled">
+                                                          <input id="timePicker_1" type="text" class="time ui-timepicker-input form-control" autocomplete="off" placeholder="11:50am">
+                                                      </td>
+                                                      <td class="disabled">
+                                                          <input id="timePicker_2" type="text" class="time ui-timepicker-input form-control" autocomplete="off" placeholder="11:50am">
+                                                      </td>
+                                                    </tr>
+                                                    <tr>
+                                                      <td>
+                                                          <div class="checkbox">
+                                                            <label>
+                                                                <input type="checkbox">Monday
+                                                            </label>
+                                                        </div>
+                                                      </td>
+                                                      <td>
+                                                          <input id="timePicker_3" type="text" class="time ui-timepicker-input form-control" autocomplete="off" placeholder="11:50am">
+                                                      </td>
+                                                      <td><input id="timePicker_4" type="text" class="time ui-timepicker-input form-control" autocomplete="off" placeholder="11:50am"></td>
+                                                    </tr>
+                                                    <tr>
+                                                      <td>
+                                                          <div class="checkbox">
+                                                            <label>
+                                                                <input type="checkbox">Tuesday
+                                                            </label>
+                                                        </div>
+                                                      </td>
+                                                      <td>
+                                                          <input id="timePicker_5" type="text" class="time ui-timepicker-input form-control" autocomplete="off" placeholder="11:50am">
+                                                      </td>
+                                                      <td><input id="timePicker_6" type="text" class="time ui-timepicker-input form-control" autocomplete="off" placeholder="11:50am"></td>
+                                                    </tr>
+                                                    <tr>
+                                                      <td>
+                                                          <div class="checkbox">
+                                                            <label>
+                                                                <input type="checkbox">Wednesday
+                                                            </label>
+                                                        </div>
+                                                      </td>
+                                                      <td>
+                                                          <input id="timePicker_7" type="text" class="time ui-timepicker-input form-control" autocomplete="off" placeholder="11:50am">
+                                                      </td>
+                                                      <td>
+                                                          <input id="timePicker_8" type="text" class="time ui-timepicker-input form-control" autocomplete="off" placeholder="11:50am">
+                                                      </td>
+                                                    </tr>
+                                                    <tr>
+                                                      <td>
+                                                          <div class="checkbox">
+                                                            <label>
+                                                                <input type="checkbox">Thursday
+                                                            </label>
+                                                        </div>
+                                                      </td>
+                                                      <td>
+                                                          <input id="timePicker_9" type="text" class="time ui-timepicker-input form-control" autocomplete="off" placeholder="11:50am">
+                                                      </td>
+                                                      <td>
+                                                          <input id="timePicker_10" type="text" class="time ui-timepicker-input form-control" autocomplete="off" placeholder="11:50am">
+                                                      </td>
+                                                    </tr>
+                                                    <tr>
+                                                      <td>
+                                                          <div class="checkbox">
+                                                            <label>
+                                                                <input type="checkbox">Friday
+                                                            </label>
+                                                        </div>
+                                                      </td>
+                                                      <td>
+                                                          <input id="timePicker_11" type="text" class="time ui-timepicker-input form-control" autocomplete="off" placeholder="11:50am">
+                                                      </td>
+                                                      <td>
+                                                          <input id="timePicker_12" type="text" class="time ui-timepicker-input form-control" autocomplete="off" placeholder="11:50am">
+                                                      </td>
+                                                    </tr>
+                                                    <tr>
+                                                      <td>
+                                                          <div class="checkbox">
+                                                            <label>
+                                                                <input type="checkbox">Satuday
+                                                            </label>
+                                                        </div>
+                                                      </td>
+                                                      <td>
+                                                          <input id="timePicker_13" type="text" class="time ui-timepicker-input form-control" autocomplete="off" placeholder="11:50am">
+                                                      </td>
+                                                      <td>
+                                                          <input id="timePicker_14" type="text" class="time ui-timepicker-input form-control" autocomplete="off" placeholder="11:50am">
+                                                      </td>
+                                                    </tr>
+                                                  </tbody>
+                                                </table>
+                                        </div>
+                                            <div class="form-group">
+                                            <div class="col-sm-12 m-bottom-20">
+                                               <label for="exampleInputPassword1">TYPE OF USERS <span>Set the Staff Member Roles</span></label>
+                                               <input type="password" class="form-control" id="exampleInputPassword1" placeholder="">
+                                            </div>
+                                         </div>
+                                         <div class="form-group">
+                                            <div class="col-sm-12 m-bottom-20">
+                                               <label for="exampleInputPassword1">STATUS OF USER</label>
+                                               <input type="password" class="form-control" id="exampleInputPassword1" placeholder="">
+                                            </div>
+                                         </div>
+                                          <div class="col-sm-12 m-bottom-20">
+                                            <button type="submit" class="btn btn-green btn-padding-80">Save & Close</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div class="member clearfix">
+                                            <span class="role">FRONT DESK</span>
+                                            <div class="col-sm-2">
+                                                <div class="avatar">
+                                                    <img src="images/Screenshot_39.png">
+                                                </div>  
+                                            </div>
+                                            <div class="col-sm-10">
+                                                <div class="user-detail">
+                                                <h4>Shahid Bashir</h4>
+                                                <p><span class="email">NanceyTTTaylor@armspy.com </span><span class="phone">989-456-1256</span></p>
+                                                <div class="status online">
+                                                    <span class="fa fa-circle"></span>
+                                                    <span>Active</span>
+                                                </div>
+                                            </div>
+                                            </div>
+                                        </div> <!-- member -->
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="member clearfix">
+                                            <span class="role">admin</span>
+                                            <div class="col-sm-2">
+                                                <div class="avatar">
+                                                    <img src="images/Screenshot_39.png">
+                                                </div>  
+                                            </div>
+                                            <div class="col-sm-10">
+                                                <div class="user-detail">
+                                                <h4>Shahid Bashir</h4>
+                                                <p><span class="email">NanceyTTTaylor@armspy.com </span><span class="phone">989-456-1256</span></p>
+                                                <div class="status inactive">
+                                                    <span class="fa fa-circle"></span>
+                                                    <span>INACTIVE</span>
+                                                </div>
+                                            </div>
+                                            </div>
+                                        </div> <!-- member -->
+                                    </div>
+                                </div> <!-- row -->
+
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div class="member clearfix">
+                                            <span class="role">FRONT DESK</span>
+                                            <div class="col-sm-2">
+                                                <div class="avatar">
+                                                    <img src="images/Screenshot_39.png">
+                                                </div>  
+                                            </div>
+                                            <div class="col-sm-10">
+                                                <div class="user-detail">
+                                                <h4>Shahid Bashir</h4>
+                                                <p><span class="email">NanceyTTTaylor@armspy.com </span><span class="phone">989-456-1256</span></p>
+                                                <div class="status inactive">
+                                                    <span class="fa fa-circle"></span>
+                                                    <span>INACTIVE</span>
+                                                </div>
+                                            </div>
+                                            </div>
+                                        </div> <!-- member -->
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="member clearfix">
+                                            <span class="role">admin</span>
+                                            <div class="col-sm-2">
+                                                <div class="avatar">
+                                                    <img src="images/Screenshot_39.png">
+                                                </div>  
+                                            </div>
+                                            <div class="col-sm-10">
+                                                <div class="user-detail">
+                                                <h4>Shahid Bashir</h4>
+                                                <p><span class="email">NanceyTTTaylor@armspy.com </span><span class="phone">989-456-1256</span></p>
+                                                <div class="status online">
+                                                    <span class="fa fa-circle"></span>
+                                                    <span>Active</span>
+                                                </div>
+                                            </div>
+                                            </div>
+                                        </div> <!-- member -->
+                                    </div>
+                                </div> <!-- row -->
+
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div class="member clearfix">
+                                            <span class="role">admin</span>
+                                            <div class="col-sm-2">
+                                                <div class="avatar">
+                                                    <img src="images/Screenshot_39.png">
+                                                </div>  
+                                            </div>
+                                            <div class="col-sm-10">
+                                                <div class="user-detail">
+                                                <h4>Shahid Bashir</h4>
+                                                <p><span class="email">NanceyTTTaylor@armspy.com </span><span class="phone">989-456-1256</span></p>
+                                                <div class="status inactive">
+                                                    <span class="fa fa-circle"></span>
+                                                    <span>INACTIVE</span>
+                                                </div>
+                                            </div>
+                                            </div>
+                                        </div> <!-- member -->
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="member clearfix">
+                                            <span class="role">admin</span>
+                                            <div class="col-sm-2">
+                                                <div class="avatar">
+                                                    <img src="images/Screenshot_39.png">
+                                                </div>  
+                                            </div>
+                                            <div class="col-sm-10">
+                                                <div class="user-detail">
+                                                <h4>Shahid Bashir</h4>
+                                                <p><span class="email">NanceyTTTaylor@armspy.com </span><span class="phone">989-456-1256</span></p>
+                                                <div class="status online">
+                                                    <span class="fa fa-circle"></span>
+                                                    <span>Active</span>
+                                                </div>
+                                            </div>
+                                            </div>
+                                        </div> <!-- member -->
+                                    </div>
+                                </div> <!-- row -->
+                                    <a href="#" class="well" style="dispaly: block; width: 100%;">
+                                        
+                                         Load More.
+                                        
+
+                                    </a>
+                            </div><!-- staff-members -->
+    						
+    					</div> <!-- content -->
+					</div>
+					
+			     </div> <!-- row -->
+
+	    </div> <!-- container-fluid -->
+    </div> <!-- setting-wrapper -->
+
+	<div class="footer">
+		<div class="row">
+			<div class="col-xs-6 col-sm-6">
+				<ul class="list-inline pull-left left">
+					<li class="">
+						<a href=""><strong>14 Days</strong> Free Trial</a>
+					</li>
+					<li>
+						<button href="" class="btn btn-default-inverse">See Upgrad Options</button>
+					</li>
+				</ul>
+			</div>
+			<div class="col-xs-6 col-sm-6">
+				<ul class="list-inline pull-right right">
+					<li>
+						<a href="">Privacy</a>
+					</li>
+					<li class="">
+						<a href="">Terms</a>
+					</li>
+					
+				</ul>
+			</div>
+		</div>
+	</div>
+	
+</div> <!-- container-fluid -->
+
+ <!-- @include html_Moudles/footer.html -->
+
+
+
+
+
+<style>
+    #dashboard .content.settings {
+        padding-bottom: 390px;
+    }
+</style>

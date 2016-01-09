@@ -1,0 +1,22 @@
+
+ /* ----------------------------------------------------------------------------------------
+ * Global Style.
+ * Header styles.
+ * Nav styles.
+ * Main styles.
+ * Sidebar styles.
+ * Footer styles.
+ * ----------------------------------------------------------------------------------------
+ */
+ 
+
+
+// Layout
+@import "layout/header";
+@import "layout/nav";
+@import "layout/main";
+@import "layout/sidebar";
+@import "layout/footer";
+@import "layout/responsive";
+
+

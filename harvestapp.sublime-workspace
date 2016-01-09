@@ -1,0 +1,1771 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"padd",
+				"padding-right"
+			],
+			[
+				"border",
+				"border"
+			],
+			[
+				"pos",
+				"pos	position"
+			],
+			[
+				"tra",
+				"transition"
+			],
+			[
+				"par",
+				"parent	.parent()"
+			],
+			[
+				"si",
+				"siblings	.siblings()"
+			],
+			[
+				"mou",
+				"mouseover	.mouseover()"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"tr",
+				"transparent"
+			],
+			[
+				"lis",
+				"list-unstyled	 bootstrap.min.css"
+			],
+			[
+				"fo",
+				"font-weight"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"bor",
+				"border-bottom"
+			],
+			[
+				"form",
+				"form-group	 bootstrap.min.css"
+			],
+			[
+				"cont",
+				"TodosController"
+			],
+			[
+				"co",
+				"completed"
+			],
+			[
+				"so",
+				"scope"
+			],
+			[
+				"Tod",
+				"TodosController"
+			],
+			[
+				"html",
+				"html5	html5"
+			],
+			[
+				"padding",
+				"padding"
+			],
+			[
+				"col",
+				"col-sm-11	 bootstrap.min.css"
+			],
+			[
+				"margi",
+				"margin-right"
+			],
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"paddin",
+				"padding-left"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"marg",
+				"margin-right"
+			],
+			[
+				"com",
+				"compass"
+			],
+			[
+				"list",
+				"glyphicon-list	 bootstrap.min.css"
+			],
+			[
+				"ul",
+				"list-unstyled"
+			],
+			[
+				"cur",
+				"cur:p	cursor:pointer"
+			],
+			[
+				"btn",
+				"crm-listing__btn"
+			],
+			[
+				"padin",
+				"padding"
+			],
+			[
+				"borde",
+				"border-radius"
+			],
+			[
+				"mari",
+				"margin"
+			],
+			[
+				"ser",
+				"search-form"
+			],
+			[
+				"gallery_",
+				"gallery_bottom	 gallery.css"
+			],
+			[
+				"galleryc",
+				"gallery_caption	 gallery.css"
+			],
+			[
+				"galler",
+				"gallery_contact	 gallery.css"
+			],
+			[
+				"cl",
+				"clear_both	 gallery.css"
+			],
+			[
+				"gall",
+				"gallery_thumbnails	 gallery.css"
+			],
+			[
+				"glle",
+				"gallery_bottom	 gallery.css"
+			],
+			[
+				"gallt",
+				"gallery_top	 gallery.css"
+			],
+			[
+				"gal",
+				"gallery_type	 gallery.css"
+			],
+			[
+				"pa",
+				"place	htmlclass"
+			],
+			[
+				"con",
+				"controller"
+			],
+			[
+				"room",
+				"roomtween"
+			],
+			[
+				"trig",
+				"triggerElement"
+			],
+			[
+				"tri",
+				"triggerElement"
+			],
+			[
+				"Scroll",
+				"ScrollScene"
+			],
+			[
+				"attrac",
+				"attractionstween"
+			],
+			[
+				"ajax",
+				"ajaxsuccess	$.ajaxSuccess()"
+			],
+			[
+				"tex",
+				"text	.text()"
+			],
+			[
+				"update",
+				"updateCount"
+			],
+			[
+				"fun",
+				"fun	Function"
+			],
+			[
+				"st",
+				"strict"
+			],
+			[
+				"red",
+				"ready	jQuery(document).ready"
+			],
+			[
+				"f",
+				"f	Anonymous Function"
+			],
+			[
+				"plug",
+				"plugins_url"
+			],
+			[
+				"wp_en",
+				"wp_enqueue_style"
+			],
+			[
+				"adminp",
+				"admin_print_styles"
+			],
+			[
+				"admin_pr",
+				"admin_print_styles"
+			],
+			[
+				"plugin",
+				"plugin_dir_path"
+			],
+			[
+				"ad",
+				"add_action"
+			],
+			[
+				"togg",
+				"toggleClass	.toggleClass()"
+			],
+			[
+				"plac",
+				"placeholder"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"c",
+				"cur:he	cursor:help"
+			],
+			[
+				"fnt",
+				"font-weight"
+			],
+			[
+				"boed",
+				"border-bottom-width"
+			],
+			[
+				"gy",
+				"glyphicon-cog"
+			],
+			[
+				"tab",
+				"tab-pane"
+			],
+			[
+				"pull",
+				"pull-right"
+			],
+			[
+				"se",
+				"service-listing"
+			],
+			[
+				"pull-",
+				"pull-right"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"marin",
+				"margin"
+			],
+			[
+				"me",
+				"megaMenuResize"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"sett",
+				"setting-wrapper"
+			],
+			[
+				"bord",
+				"border"
+			],
+			[
+				"m-",
+				"m-bottom-30"
+			],
+			[
+				"im",
+				"important"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"magin",
+				"margin-top"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"inline",
+				"list-inline"
+			],
+			[
+				"fi",
+				"figure"
+			],
+			[
+				"ino",
+				"ionicframwork"
+			],
+			[
+				"git",
+				"gitignore"
+			],
+			[
+				"bo",
+				"border-bg"
+			],
+			[
+				"te",
+				"text-decoration"
+			],
+			[
+				"mag",
+				"margin-left"
+			],
+			[
+				"tes",
+				"te-ds	text-emphasis: disc;"
+			],
+			[
+				"borr",
+				"border-radius"
+			],
+			[
+				"fot",
+				"font-weight"
+			],
+			[
+				"ps",
+				"pos-s	position: static;"
+			],
+			[
+				"fonts",
+				"font-size"
+			],
+			[
+				"col-lg",
+				"col-lg-8"
+			],
+			[
+				"eq",
+				"breast-equalization-treatment"
+			],
+			[
+				"mr",
+				"margin-top"
+			],
+			[
+				"div",
+				"divider"
+			],
+			[
+				"margin-t",
+				"margin-top"
+			],
+			[
+				"inlie",
+				"inline"
+			],
+			[
+				"get_sit",
+				"get_site_url"
+			],
+			[
+				"tm",
+				"tmp	get_template"
+			],
+			[
+				"get_tem",
+				"get_template_part"
+			],
+			[
+				"copy",
+				"copyright"
+			],
+			[
+				"Dr",
+				"DrGVG"
+			],
+			[
+				"conta",
+				"container"
+			],
+			[
+				"hidde",
+				"hidden-xs"
+			],
+			[
+				"borderc",
+				"border-color"
+			],
+			[
+				"add",
+				"addClass	.addClass()"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"img",
+				"img-responsive"
+			],
+			[
+				"bas",
+				"baseline"
+			],
+			[
+				"magn",
+				"margin-left"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"col-",
+				"col-xm-12"
+			],
+			[
+				"margn",
+				"margin-bottom"
+			],
+			[
+				"padi",
+				"padding-bottom"
+			],
+			[
+				"fa",
+				"fa-facebook"
+			],
+			[
+				"inl",
+				"list-inline"
+			],
+			[
+				"swim_",
+				"swim_optoin_1"
+			],
+			[
+				"pading",
+				"padding-right"
+			],
+			[
+				"head",
+				"header"
+			],
+			[
+				"nav",
+				"navbar"
+			],
+			[
+				"n",
+				"nav"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "include_once( get_template_directory() . '/lib/init.php' );\nget_bloginfo();\n\n<?php\nadd_action('wp_footer', 'add_googleanalytics');\nfunction add_googleanalytics() { ?>\n// Paste your Google Analytics code from Step 6 here\n<?php } ?>\n\n<!-- @include html_Moudles/dashboard-top.html -->\n\nemail\naile drop \n\ndrop text ext\n\n\n",
+			"settings":
+			{
+				"buffer_size": 317,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 219.0,
+		"selected_items":
+		[
+			[
+				"js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"html",
+				"HTMLBeautify"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"mark",
+				"Set Syntax: Markdown"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"sass",
+				"Set Syntax: Sass"
+			],
+			[
+				"hm",
+				"HTMLBeautify"
+			],
+			[
+				"cs",
+				"Set Syntax: CSS"
+			],
+			[
+				"htl",
+				"HTMLBeautify"
+			],
+			[
+				"htm",
+				"HTMLBeautify"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"htmlb",
+				"HTMLBeautify"
+			],
+			[
+				"htmls",
+				"Set Syntax: HTML (ASP)"
+			],
+			[
+				"bea",
+				"HTMLBeautify"
+			],
+			[
+				"main",
+				"Emmet: Go to Matching Pair"
+			],
+			[
+				"less",
+				"Set Syntax: LESS"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"ht",
+				"HTMLBeautify"
+			],
+			[
+				"blad",
+				"Set Syntax: PHP - Laravel Blade"
+			],
+			[
+				"beau",
+				"HTMLBeautify"
+			],
+			[
+				"md",
+				"Emmet: Decrement Number by 1"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": true,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/html/22.CRM-additioanl-Fiedl.html",
+		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/html/21.person-summary.html",
+		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/html/15.employee-listing.html",
+		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/html/16.service-listing-product.html",
+		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/html/17.service-listing.html",
+		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/html/18.CRM-listing.html",
+		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/html/19.CRM-quickadd.html",
+		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/html/20.CRM-welcome-screen.html",
+		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/sass/layout/_nav.scss",
+		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/sass/layout/_responsive.scss",
+		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/sass/layout/_main.scss",
+		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/js/main.js",
+		"/C/xampp/htdocs/my_gulp_work_flow/ash/js/main.js",
+		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/html/23.CRM-additioanl-Fiedl-2.html",
+		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/html/html_Moudles/dashboard-top.html",
+		"/C/xampp/htdocs/my_gulp_work_flow/ash/html/apply.html",
+		"/C/xampp/htdocs/my_gulp_work_flow/ash/html/modules/footer.html",
+		"/C/xampp/htdocs/my_gulp_work_flow/ash/html/modules/header.html",
+		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/sass/base/_helpers.scss",
+		"/C/xampp/htdocs/my_gulp_work_flow/ash/sass/layout/_main.scss",
+		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/html/html_Moudles/header.html",
+		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/html/html_Moudles/footer.html",
+		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/21.CRM-additioanl-field-2.html",
+		"/C/xampp/htdocs/my_gulp_work_flow/ash/sass/layout/_responsive.scss",
+		"/C/xampp/htdocs/my_gulp_work_flow/ash/html/register.html",
+		"/C/xampp/htdocs/my_gulp_work_flow/ash/html/sign-in.html",
+		"/C/xampp/htdocs/my_gulp_work_flow/ash/gulpfile.js",
+		"/C/xampp/htdocs/my_gulp_work_flow/ash/build/apply.html",
+		"/C/xampp/htdocs/my_gulp_work_flow/ash/register.html",
+		"/C/xampp/htdocs/my_gulp_work_flow/ash/config.rb",
+		"/C/xampp/htdocs/my_gulp_work_flow/ash/css/style_sh.css",
+		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/js/i18n/defaults-ar_AR.min.js",
+		"/C/xampp/htdocs/my_gulp_work_flow/ash/sass/style_sh.scss",
+		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/html/14.settings-general.html",
+		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/html/html_Moudles/sidebar-nav.html",
+		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/html/4.authentication.html",
+		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/html/4.passwordreset.html",
+		"/E/torrentz/4.authentication.html",
+		"/C/xampp/htdocs/my_gulp_work_flow/trainer/angularjsbyexample-master/trainer/app/js/app.js",
+		"/C/xampp/htdocs/my_gulp_work_flow/trainer/angularjsbyexample-master/trainer/app/js/7MinWorkout/workout.js",
+		"/C/xampp/htdocs/my_gulp_work_flow/trainer/js/app.js",
+		"/C/xampp/htdocs/my_gulp_work_flow/trainer/index.html",
+		"/C/xampp/htdocs/my_gulp_work_flow/trainer/js/7MinWorkout/workout.js",
+		"/C/xampp/htdocs/my_gulp_work_flow/trainer/angularjsbyexample-master/trainer/app/index.html",
+		"/C/xampp/htdocs/my_gulp_work_flow/trainer/gulpfile.js",
+		"/C/xampp/htdocs/my_gulp_work_flow/angular-laravel/gulpfile.js",
+		"/C/xampp/htdocs/my_gulp_work_flow/angular-laravel/main.js",
+		"/C/xampp/htdocs/my_gulp_work_flow/angular-laravel/index.html",
+		"/E/Templates/html-templates/components/snippets/table/table.html",
+		"/C/xampp/htdocs/my_gulp_work_flow/exchange/gulpfile.js",
+		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/gulpfile.js",
+		"/C/xampp/htdocs/my_gulp_work_flow/bootstrap/composer.json",
+		"/C/xampp/htdocs/my_gulp_work_flow/bootstrap/less/utilities.less",
+		"/C/xampp/htdocs/my_gulp_work_flow/bootstrap/less/close.less",
+		"/C/xampp/htdocs/my_gulp_work_flow/bootstrap/dist/css/bootstrap.css",
+		"/C/xampp/htdocs/my_gulp_work_flow/bootstrap/Gruntfile.js",
+		"/C/xampp/htdocs/my_gulp_work_flow/bootstrap/bower.json",
+		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/19.CRM-quickadd.html",
+		"/C/Users/Dell/Desktop/Stock take of last two month.md",
+		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/sass/style.scss",
+		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/sass/_layout.scss",
+		"/E/Templates/html-templates/components/snippets/table/angular table/anglular-table.html",
+		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/sass/base/_variables.scss",
+		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/sass/components/_buttons.scss",
+		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/html/11.Setup-Business---Step-5.html",
+		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/html/10.Setup-Business---Step-4.html",
+		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/html/11.Setup-Business---Step-4.html",
+		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/html/9.Setup-Business---Step-3.html",
+		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/html/10.Setup-Business---Step-5.html",
+		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/html/8.Setup-Business---Step-2.html",
+		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/9.Setup-Business---Step-3.html",
+		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/html/7.Setup-Business---Step-1.html",
+		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/7.Setup-Business---Step-1.html",
+		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/html/20.CRM-listing.html",
+		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/html/22.CRM-welcome-screen.html",
+		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/html/6.dashboard-empty.html",
+		"/C/xampp/htdocs/my_gulp_work_flow/startbootstrap-sb-admin-2/bower_components/raphael/bower.json",
+		"/C/xampp/htdocs/my_gulp_work_flow/startbootstrap-sb-admin-2/js/morris-data.js",
+		"/C/xampp/htdocs/my_gulp_work_flow/startbootstrap-sb-admin-2/js/flot-data.js",
+		"/C/xampp/htdocs/my_gulp_work_flow/startbootstrap-sb-admin-2/bower_components/datatables-responsive/Readme.md",
+		"/C/xampp/htdocs/my_gulp_work_flow/startbootstrap-sb-admin-2/less/variables.less",
+		"/C/xampp/htdocs/my_gulp_work_flow/startbootstrap-sb-admin-2/less/mixins.less",
+		"/C/xampp/htdocs/my_gulp_work_flow/startbootstrap-sb-admin-2/less/sb-admin-2.less",
+		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/html/19.service-listing.html",
+		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/html/18.service-listing-product.html",
+		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/15.employee-listing.html",
+		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/html/12.Setup-Business---Step-Completed.html",
+		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/14.settings-general.html",
+		"/C/xampp/htdocs/my_gulp_work_flow/jquery-gallery/includes/gallery.js",
+		"/C/xampp/htdocs/my_gulp_work_flow/jquery-gallery/index.html",
+		"/C/xampp/htdocs/my_gulp_work_flow/jquery-gallery/includes/gallery.css",
+		"/F/Torrentz/Moveis/Lynda.com.jQuery.Projects.Creating.an.Interactive.Photo.Gallery/Exercise Files/Final Project/includes/gallery.css",
+		"/C/Users/Dell/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Dell/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
+		"/E/torrentz/Moveis/alertify.core.css",
+		"/E/Templates/html-templates/components/snippets/social.html",
+		"/E/Templates/html-templates/components/snippets/forms/Float Label Pattern Forms.html",
+		"/E/Templates/html-templates/components/snippets/forms/form-1.html",
+		"/E/Templates/html-templates/components/snippets/forms/default-forms.html",
+		"/E/Templates/html-templates/components/snippets/forms/nav-form-2.html",
+		"/F/Torrentz/html/TutsPlus-Web Form Design and Development/SourceFiles/Source Files/scripts/lesson 9/validate.js",
+		"/F/Torrentz/html/TutsPlus-Web Form Design and Development/SourceFiles/Source Files/scripts/lesson 9/validate.php",
+		"/F/Torrentz/html/TutsPlus-Web Form Design and Development/SourceFiles/Source Files/scripts/lesson 13/scripts.js",
+		"/F/Torrentz/Angular JS/Lynda - Building a Responsive Single Page Design/Exercise Files/responsive/builds/development/js/script - Copy.js",
+		"/C/xampp/htdocs/my_gulp_work_flow/Single page Design/js/script.js",
+		"/F/Torrentz/Angular JS/Lynda - Building a Responsive Single Page Design/Exercise Files/responsive/builds/development/js/script.js",
+		"/C/xampp/htdocs/my_gulp_work_flow/Single page Design/index.html",
+		"/F/Torrentz/Angular JS/Lynda - Building a Responsive Single Page Design/Exercise Files/responsive/builds/development/index.html",
+		"/C/xampp/htdocs/my_gulp_work_flow/Single page Design/gulpfile.js",
+		"/F/Torrentz/Angular JS/Lynda - Building a Responsive Single Page Design/Exercise Files/responsive/builds/development/js/jquery.scrollmagic.min.js",
+		"/F/Torrentz/Angular JS/Lynda - Building a Responsive Single Page Design/Exercise Files/responsive/builds/development/js/jqloader.js",
+		"/F/Torrentz/Angular JS/Lynda - Building a Responsive Single Page Design/Exercise Files/responsive/builds/production/js/script.js",
+		"/F/Torrentz/Angular JS/Lynda - Building a Responsive Single Page Design/Exercise Files/responsive/gulpfile.js",
+		"/F/Torrentz/Angular JS/Lynda - Building a Responsive Single Page Design/Exercise Files/responsive/package.json",
+		"/C/xampp/apps/wordpress/htdocs/wp-content/plugins/front-to-back/sass/widget.scss",
+		"/C/xampp/apps/wordpress/htdocs/wp-content/plugins/front-to-back/js/admin.js",
+		"/C/xampp/apps/wordpress/htdocs/wp-content/plugins/front-to-back/views/widget.php",
+		"/C/xampp/apps/wordpress/htdocs/wp-content/plugins/front-to-back/views/admin.php",
+		"/C/xampp/apps/wordpress/htdocs/wp-content/plugins/front-to-back/plugin.php",
+		"/C/xampp/apps/wordpress/htdocs/wp-content/plugins/front-to-back/css/admin.css",
+		"/C/xampp/apps/wordpress/htdocs/wp-content/plugins/front-to-back/sass/admin.scss",
+		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/minimal/ocmx/widgets/twitter-widget.php",
+		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/minimal/ocmx/widgets/social-widget.php",
+		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/minimal/ocmx/widgets/search-widget.php",
+		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/minimal/ocmx/widgets/popular-posts-widget.php",
+		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/minimal/ocmx/widgets/latest-comments.php",
+		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/minimal/ocmx/folder-class.php",
+		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/minimal/functions.php"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"left",
+			".setting-wrapper",
+			"settings-navigation",
+			".settings-navigation",
+			"top-bar",
+			"left",
+			", .apply_sign-in_form input",
+			"200",
+			"100",
+			"1000",
+			"td-social-media",
+			"Add Additio",
+			"858585",
+			"class=\"label",
+			"width-27",
+			"width-38",
+			"Enter email",
+			"login",
+			"build",
+			"compass",
+			"apply",
+			"list-unstyled",
+			"td",
+			"exampleInputEmail1",
+			"email",
+			"Email address",
+			"current",
+			"browserSync\\",
+			"#dashboard ",
+			"crm-listing__btn",
+			"btn crm-listing__btn",
+			"crm-listing",
+			"person-summery__tabs__table",
+			"a",
+			"h2",
+			"person-summery__header",
+			"person-summery__app-sche",
+			"12px",
+			"person-summery__notes-discuss",
+			"h3",
+			"h2",
+			"person-summery__notes-discuss",
+			"less",
+			"<tr>",
+			"code",
+			".borderd",
+			"pre",
+			"6",
+			"dark-blue",
+			"crm-listing",
+			"http://gtechlabs.biz",
+			"11/09/2015",
+			"12/26/2015  09:03 PM",
+			"h5",
+			"addservice",
+			"pull-right",
+			"dark-blue",
+			"h3",
+			"h2",
+			"h4",
+			"password",
+			"lebel",
+			"h2",
+			"border-radius-",
+			"sep",
+			".gallery_credit {}",
+			"#cd-lateral-nav",
+			"position",
+			"bio",
+			"name",
+			"title",
+			"Title",
+			"title",
+			"false,",
+			"My_Widget",
+			"less",
+			"z-index",
+			"label",
+			"h4",
+			"settings ",
+			"setting-wrapper",
+			"uncss",
+			".employee-adding",
+			"div",
+			"employee-adding",
+			"h3",
+			"m-bot",
+			"care",
+			"create",
+			"3",
+			"create",
+			"creat",
+			"create-anchor",
+			"<h4>Product name</h4>",
+			"INACTIVE",
+			"armspy.com",
+			"<p>Lorem ipsum dolor sit amet, contetur.</p>",
+			"<span></span>",
+			"Password",
+			"Check me ",
+			"first_name",
+			"exampleInputEmail1",
+			"buton",
+			"messages",
+			"Profile",
+			"profile",
+			"Home",
+			"home",
+			"h5",
+			"h4",
+			"3",
+			"<li><a href=\"3\"></a></li>",
+			"h3",
+			"2",
+			"8",
+			"2",
+			"1",
+			"5",
+			"6",
+			"5",
+			"-4",
+			"4",
+			"6",
+			"CASA_USUARIOS",
+			"white",
+			"<a",
+			"buton",
+			"2"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"CONFIG_HARDWARE",
+			"\n\n\n<pre",
+			"\n\n\n</pre>\n\n\n",
+			"\n\n\n<pre",
+			"\n\n\n<iframe",
+			"</iframe>\n\n\n",
+			"\n\n\n</pre>\n\n\n",
+			"\n\n\n<pre",
+			"\n\n\n</pre>\n\n\n",
+			"\n\n\n<pre",
+			"\n\n\n</pre>\n\n\n",
+			"\n\n\n<pre",
+			"\n\n\n</pre>\n\n\n",
+			"\n\n\n</pre\n\n\n",
+			"\n\n\n<pre",
+			"\n\n\n</pre\n\n\n",
+			"\n\n\n</pre>\n\n\n",
+			"\n\n\n</pre>",
+			"\n\n\n<pre",
+			"</iframe>\n\n\n",
+			"\n\n\n<iframe",
+			"</iframe>\n\n\n",
+			"\n\n\n<iframe",
+			"</iframe>\n\n\n",
+			"\n\n\n<iframe",
+			"</iframe>\n\n\n",
+			"\n\n\n<iframe",
+			"</iframe>\n\n\n",
+			"\n\n\n<iframe",
+			"</iframe>\n\n\n\n\n<iframe",
+			"</iframe>\n\n",
+			"\n\n<iframe",
+			"img-responsive thumbnail",
+			"birth-anomaly-cleft-surgery-treatment.php",
+			"birth-anomaly-cleft-surgery-treatment.phpp",
+			"birth-anomaly-cleft-surgery-treatment.php",
+			"php",
+			"",
+			"php",
+			"/images",
+			"",
+			"<?php get_template_directory_uri() ?>/images",
+			"<?php get_template_directory_uri() ?>/",
+			"",
+			"<?php get_template_directory_uri() ?>/images",
+			"192.185.228.226/projects/black-pearl/Template/js/",
+			"botoes2",
+			"$formData",
+			"<?php echo get_template_directory_uri() . \"/includes\"?>/",
+			"includes",
+			"jQuery",
+			"page-section",
+			"<?php get_template_directory_uri() . ?>\n<?php get_template_directory_uri() . ?>\n<?php echo get_template_directory_uri() . \"/includes\"?>/",
+			"<?php get_template_directory_uri() . ?>\n<?php get_template_directory_uri() . ?>\n<?php echo get_template_directory_uri() . \"/includes\"?>",
+			"includes",
+			"<",
+			">",
+			"n>',",
+			"'<op",
+			">",
+			"<op",
+			"assests/img/",
+			"assests/img",
+			"swt",
+			"sex",
+			"required",
+			"",
+			",",
+			"=>",
+			"datepicker",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"settings":
+					{
+						"buffer_size": 317,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								307,
+								307
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"devel": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": "load-save",
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 29.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.CSS Extended Completions":
+	{
+		"height": 0.0
+	},
+	"replace":
+	{
+		"height": 165.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"nav",
+				"sass/layout/_nav.scss"
+			],
+			[
+				"res",
+				"sass/layout/_responsive.scss"
+			],
+			[
+				"main",
+				"sass/layout/_main.scss"
+			],
+			[
+				"hel",
+				"sass/base/_helpers.scss"
+			],
+			[
+				"head",
+				"html/html_Moudles/header.html"
+			],
+			[
+				"foo",
+				"html/html_Moudles/footer.html"
+			],
+			[
+				"foot",
+				"html/html_Moudles/footer.html"
+			],
+			[
+				"mai",
+				"sass/layout/_main.scss"
+			],
+			[
+				"amin",
+				"js/i18n/defaults-ar_AR.min.js"
+			],
+			[
+				"help",
+				"sass/base/_helpers.scss"
+			],
+			[
+				"mainj",
+				"js/main.js"
+			],
+			[
+				"var",
+				"sass/base/_variables.scss"
+			],
+			[
+				"but",
+				"sass/components/_buttons.scss"
+			],
+			[
+				"butn",
+				"sass/components/_buttons.scss"
+			],
+			[
+				"majs",
+				"js/main.js"
+			],
+			[
+				"mainjs",
+				"js/main.js"
+			],
+			[
+				"set",
+				"html/settings-general.html"
+			],
+			[
+				"fo",
+				"html/html_Moudles/footer.html"
+			],
+			[
+				"pfoo",
+				"sass/components/_form-control.scss"
+			],
+			[
+				"buton",
+				"sass/components/_buttons.scss"
+			],
+			[
+				"fot",
+				"html/html_Moudles/footer.html"
+			],
+			[
+				"com",
+				"sass/_components.scss"
+			],
+			[
+				"comp",
+				"sass/_components.scss"
+			],
+			[
+				"ma",
+				"sass/layout/_main.scss"
+			],
+			[
+				"f",
+				"html/html_Moudles/footer.html"
+			],
+			[
+				"resp",
+				"sass/layout/_responsive.scss"
+			],
+			[
+				"gl",
+				"sass/base/_globals.scss"
+			],
+			[
+				"btt",
+				"sass/components/_buttons.scss"
+			],
+			[
+				"button",
+				"sass/components/_buttons.scss"
+			],
+			[
+				"butt",
+				"sass/components/_buttons.scss"
+			],
+			[
+				"had",
+				"sass/layout/_header.scss"
+			],
+			[
+				"glo",
+				"sass/base/_globals.scss"
+			],
+			[
+				"he",
+				"html/html_Moudles/header.html"
+			],
+			[
+				"ins",
+				"layout/insidetemplate.less"
+			],
+			[
+				"glob",
+				"sass/base/_globals.scss"
+			],
+			[
+				"log",
+				"html/login.html"
+			],
+			[
+				"pre",
+				"html/preference.html"
+			],
+			[
+				"btn",
+				"sass/components/_buttons.scss"
+			],
+			[
+				"form",
+				"sass/components/_form-control.scss"
+			],
+			[
+				"style",
+				"css/style.css"
+			],
+			[
+				"ind",
+				"html/index.html"
+			],
+			[
+				"med",
+				"less/layout/mediaquery.less"
+			],
+			[
+				"bas",
+				"less/base/globals.less"
+			],
+			[
+				"mian",
+				"/E/Templates/html-templates/fiverr/051115/Rohit/sass/layout/_main.scss"
+			],
+			[
+				"team",
+				"html/team-members.html"
+			],
+			[
+				"tes",
+				"html/Testimonials.html"
+			],
+			[
+				"dr",
+				"html/drgunasekarvuppalapati.html"
+			],
+			[
+				"about",
+				"html/about-us.html"
+			],
+			[
+				"fac",
+				"html/facility-tour.html"
+			],
+			[
+				"get",
+				"html/get-more-app.html"
+			],
+			[
+				"vari",
+				"less/base/variables.less"
+			],
+			[
+				"sr",
+				"html/SR-balance.html"
+			],
+			[
+				"pay",
+				"html/SR-payment.html"
+			],
+			[
+				"su",
+				"less/layout/components.less"
+			],
+			[
+				"ba",
+				"html/SR-balance.html"
+			],
+			[
+				"bal",
+				"html/SR-balance.html"
+			],
+			[
+				"",
+				"less/layout/main.less"
+			],
+			[
+				"man",
+				"less/layout/main.less"
+			],
+			[
+				"pa",
+				"html/SR-payment.html"
+			],
+			[
+				"htm",
+				"html/SR-payment.html"
+			],
+			[
+				"hea",
+				"html/html_Moudles/header.html"
+			],
+			[
+				"sid",
+				"layout/sidebar.less"
+			],
+			[
+				"header",
+				"sass/layout/_header.scss"
+			],
+			[
+				"forman",
+				"app/views/page-form-angular.blade.php"
+			],
+			[
+				"page",
+				"app/views/page-form.blade.php"
+			],
+			[
+				"angu",
+				"app/views/page-form-angular.blade.php"
+			],
+			[
+				"fomrjs",
+				"public/js/form/form.js"
+			],
+			[
+				"mys",
+				"public/js/myscript.js"
+			],
+			[
+				"rout",
+				"app/routes.php"
+			],
+			[
+				"g",
+				"global.less"
+			],
+			[
+				"min",
+				"main.less"
+			],
+			[
+				"styl",
+				"style.less"
+			],
+			[
+				"das",
+				"dashboard.less"
+			],
+			[
+				"blo",
+				"/E/HTtrack_themes/shore/www.highgradelab.com/shore-full-screen-slider/htmlSource/index.html"
+			],
+			[
+				"dash",
+				"less/dashboard.less"
+			],
+			[
+				"css",
+				"templates/_css.html"
+			],
+			[
+				"home",
+				"views/home.blade.php"
+			],
+			[
+				"myc",
+				"public/js/myscript.js"
+			],
+			[
+				"admincontroller",
+				"controllers/AdminController.php"
+			],
+			[
+				"app",
+				"views/admin/applications.blade.php"
+			],
+			[
+				"admin",
+				"views/admin/applications.blade.php"
+			],
+			[
+				"rou",
+				"routes.php"
+			],
+			[
+				"singl",
+				"views/admin/single.blade.php"
+			],
+			[
+				"moda",
+				"models/Application.php"
+			],
+			[
+				"mod",
+				"models/Application.php"
+			],
+			[
+				"swt",
+				"views/swt.blade.php"
+			],
+			[
+				"appli",
+				"views/applications.blade.php"
+			],
+			[
+				"single",
+				"views/single.blade.php"
+			],
+			[
+				"appp",
+				"views/applications.blade.php"
+			],
+			[
+				"formb",
+				"views/form.blade.php"
+			],
+			[
+				"for",
+				"/C/xampp/htdocs/laravel/laravel/public/js/form/form.js"
+			],
+			[
+				"formjs",
+				"_tk/includes/form_includes/js/form.js"
+			],
+			[
+				"formc",
+				"app/controllers/FormController.php"
+			],
+			[
+				"r",
+				"app/routes.php"
+			],
+			[
+				"scri",
+				"app/views/layout/scripts.blade.php"
+			],
+			[
+				"php",
+				"_tk/includes/form_includes/phpmailer_config.php"
+			],
+			[
+				"scrip",
+				"app/views/layout/scripts.blade.php"
+			],
+			[
+				"cssb",
+				"app/views/layout/css.blade.php"
+			],
+			[
+				"pag",
+				"page-regist.php"
+			],
+			[
+				"conf",
+				"includes/form_includes/phpmailer_config.php"
+			],
+			[
+				"proc",
+				"includes/form_includes/process.php"
+			],
+			[
+				"footer",
+				"/C/xampp/htdocs/laravel/laravel/app/views/footer.blade.php"
+			],
+			[
+				"pro",
+				"includes/form_includes/process.php"
+			],
+			[
+				"pr",
+				"includes/form_includes/process.php"
+			],
+			[
+				"phpcon",
+				"includes/form_includes/phpmailer_config.php"
+			],
+			[
+				"con",
+				"includes/form_includes/phpmailer_config.php"
+			],
+			[
+				"reg",
+				"page-regist.php"
+			],
+			[
+				"sw",
+				"page-swt.php"
+			],
+			[
+				"fun",
+				"functions.php"
+			],
+			[
+				"dum",
+				"includes/form_includes/js/dummy_data.js"
+			],
+			[
+				"proces",
+				"includes/form_includes/process.php"
+			],
+			[
+				"du",
+				"includes/form_includes/js/dummy_data.js"
+			],
+			[
+				"my",
+				"includes/js/myscript.js"
+			],
+			[
+				"scr",
+				"_scripts.html"
+			],
+			[
+				"cs",
+				"_css.html"
+			],
+			[
+				"les",
+				"/E/HTtrack_themes/shore/www.highgradelab.com/shore-full-screen-slider/htmlSource/swt-style.less"
+			],
+			[
+				"co",
+				"layout/_components.scss"
+			],
+			[
+				"m",
+				"layout/_main.scss"
+			],
+			[
+				"md",
+				"layout/_mediaQueries.scss"
+			],
+			[
+				"c",
+				"layout/_components.scss"
+			],
+			[
+				"n",
+				"layout/_nav.scss"
+			],
+			[
+				"ocm",
+				"layout/_components.scss"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/C/xampp/htdocs/my_gulp_work_flow/light_ui_doc/ionicframwork.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 244.0,
+	"status_bar_visible": true
+}
