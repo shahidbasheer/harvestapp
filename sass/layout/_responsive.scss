@@ -66,8 +66,8 @@
     min-height: 36px; 
 }
 
-
-
+	
+	
 } // xs-extra-small
 
 
@@ -101,7 +101,10 @@
 		}
 		#form-id {
 	    padding: 34px 38px;
+
 		}
+		
+
 		
 } // smd-medium
 
@@ -118,3 +121,9 @@
 
 } ///lg-large
 
+@media (min-width: 992px) { 
+	#login-2 { 
+			.col-md-6:first-child { width: 46% !important;}
+    		.col-md-6:last-child { width: 54% !important; }
+		}
+}

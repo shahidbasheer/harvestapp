@@ -3,61 +3,6 @@
  * Main styles.
  * ----------------------------------------------------------------------------------------
  */
-.wrap {
-	
-}
-.Register {
-	padding: 50px;
-}
-
-.top {
-	text-align: right;
-}
-.lead {
-	text-align: center;
-}
-.cta {
-	max-width: 850px;
-	padding: 0 15px;
-	margin-left: auto;
-	margin-right: auto;
-
-}
-.cta-left {
-	margin-top: 50px;
-	border: 1px solid $border-bg;
-	padding: 36px 50px;
-	.btn {
-		margin-top: 10px;
-		margin-bottom: 18px;
-	}
-}
-.seprater-90 {
-	margin-top: 20px;
-}
-.cta-form {
-	color: #fff;
-	background: $blue;
-	padding: 20px 42px;
-	h2 {
-		margin-bottom: 38px;
-	}
-	p {
-		margin-bottom: 20px;	
-	}
-	.btn-lg {
-    padding: 17px 16px;
-    margin-top: 24px;
-    
-	}		
-	.text-center {
-			 a {
-			 	color: #fff;
-			 }
-	}
-	
-}
-
 
 #preference {
 	header {
@@ -128,40 +73,6 @@
 .login-container {
 	padding: 60px 80px;
 }
-#login {
-	max-width: 950px;
-	height: auto;
-	margin-left: auto;
-	margin-right: auto;
-	padding: 30px 40px;
-	background: url('../images/login-bg2.jpg') no-repeat;
-	background-size: 100%;
-	.login {
-		
-		form {
-			background: #fff;
-			padding: 12px 28px;
-			border: 1px solid $border-bg;
-			p {
-				color: $blue;
-				margin-top: 20px;
-			}
-			label {
-    		font-weight: normal;
-			}
-			.btn {
-				font-size: 16px;
-				font-weight: normal;
-			}
-		}
-		p.footer {
-			text-align: center;
-			text-decoration: underline;
-			margin-top: 20px;
-			color: black;
-		}
-	}
-}
 
 .copy-right-text {
 	text-align: center;
@@ -174,84 +85,10 @@
 }
 
 
-#login-2 {
-    max-width: 950px;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 30px 40px;
-    background-size: 100%;
-    color: #fff;
-    
-}		
-.login-2 .col-sm-5 {
-	max-width: 38.666667%;
-}
 
-.left-block {
-	
-	padding: 175px 0px;
-	text-align: left;
-	min-height: 500px;
-	border-top-left-radius: 4px;
-	border-bottom-left-radius: 4px;
-	p {
-		color: #fff;
-		font-size: 27px;
-		max-width: 200px;
-		line-height: 39px;
-		margin-right: auto;
-    	margin-left: auto;
-	}
-}	
 
-.blue-bg {
-background:	rgba(51, 153, 255, .6);
-	
-}
 
-.white-bg {
-	background: #fff;
-}
-.text-black {
-		color: #000;	
-	}
 
-.text-white {
-		color: #fff;	
-	}
-
-#form-id {
-	min-height: 500px;
-	max-height: 500px;
-	color: #000;
-	/* background: #fff; */
-	padding: 20px 42px;
-	h2 {
-		margin-bottom: 24px;
-	}
-	p {
-		margin-bottom: 20px;	
-	}
-	label {
-    	font-weight: normal;
-	}
-	.btn-lg {
-    padding: 17px 16px;
-    margin-top: 24px;
-   
-   }
-   img {
-   	display: block;
-   	margin: 50px auto;
-   }
-   .success {
-		text-align: center;
-		font-size: 60px ;
-		color: #3ec95a;
-	}
-	
-}
 
 .container-fluid#dashboard {
 	padding: 0;
