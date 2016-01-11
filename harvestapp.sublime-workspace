@@ -520,10 +520,10 @@
 	"buffers":
 	[
 		{
-			"contents": "include_once( get_template_directory() . '/lib/init.php' );\nget_bloginfo();\n\n<?php\nadd_action('wp_footer', 'add_googleanalytics');\nfunction add_googleanalytics() { ?>\n// Paste your Google Analytics code from Step 6 here\n<?php } ?>\n\n<!-- @include html_Moudles/dashboard-top.html -->\n\nemail\naile drop \n\ndrop text ext\n\n\n",
+			"contents": "include_once( get_template_directory() . '/lib/init.php' );\nget_bloginfo();\n\n<?php\nadd_action('wp_footer', 'add_googleanalytics');\nfunction add_googleanalytics() { ?>\n// Paste your Google Analytics code from Step 6 here\n<?php } ?>\n\n<!-- @include html_Moudles/dashboard-top.html -->\n\nemail\naile drop \n\ndrop text ext\nLorem ipsum dolor sit amet, consectetur adipisicing elit. Libero necessitatibus optio nobis saepe veritatis aperiam illum, hic sapiente provident, labore dolor. Odit beatae quisquam, pariatur facere ea voluptatibus sint. Fuga.",
 			"settings":
 			{
-				"buffer_size": 317,
+				"buffer_size": 541,
 				"line_ending": "Windows"
 			}
 		}
@@ -531,9 +531,17 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 219.0,
+		"height": 58.0,
 		"selected_items":
 		[
+			[
+				"liq",
+				"Set Syntax: HTML Liquid"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
 			[
 				"js",
 				"Set Syntax: JavaScript"
@@ -544,10 +552,6 @@
 			],
 			[
 				"packa",
-				"Package Control: Install Package"
-			],
-			[
-				"pack",
 				"Package Control: Install Package"
 			],
 			[
@@ -648,6 +652,33 @@
 	},
 	"file_history":
 	[
+		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/Timber/templates/index.liquid",
+		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/_ubold/Dark/assets/pages/jquery.dashboard.js",
+		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/html/layout-empty.html",
+		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/Timber/templates/404.liquid",
+		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/Timber/assets/respond.min.js",
+		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/confirmation-success.html",
+		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/forgotpassword.html",
+		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/login.html",
+		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/register.html",
+		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/sass/style_ubold.scss",
+		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/authentication.html",
+		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/passwordreset.html",
+		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/forgotpassword.htm",
+		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/1.index.html",
+		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/4.authentication.html",
+		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/html/4.passwordreset.html",
+		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/sass/layout/_main.scss",
+		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/sass/layout/_responsive.scss",
+		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/sass/base/_helpers.scss",
+		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/sass/style.scss",
+		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/html/4.forget-password.html",
+		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/html/4.authentication.html",
+		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/html/3.login.html",
+		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/js/i18n/defaults-ar_AR.min.js",
+		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/html/1.index.html",
+		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/sass/_base.scss",
+		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/sass/base/_variables.scss",
 		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/html/22.CRM-additioanl-Fiedl.html",
 		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/html/21.person-summary.html",
 		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/html/15.employee-listing.html",
@@ -657,8 +688,6 @@
 		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/html/19.CRM-quickadd.html",
 		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/html/20.CRM-welcome-screen.html",
 		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/sass/layout/_nav.scss",
-		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/sass/layout/_responsive.scss",
-		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/sass/layout/_main.scss",
 		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/js/main.js",
 		"/C/xampp/htdocs/my_gulp_work_flow/ash/js/main.js",
 		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/html/23.CRM-additioanl-Fiedl-2.html",
@@ -666,7 +695,6 @@
 		"/C/xampp/htdocs/my_gulp_work_flow/ash/html/apply.html",
 		"/C/xampp/htdocs/my_gulp_work_flow/ash/html/modules/footer.html",
 		"/C/xampp/htdocs/my_gulp_work_flow/ash/html/modules/header.html",
-		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/sass/base/_helpers.scss",
 		"/C/xampp/htdocs/my_gulp_work_flow/ash/sass/layout/_main.scss",
 		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/html/html_Moudles/header.html",
 		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/html/html_Moudles/footer.html",
@@ -679,12 +707,9 @@
 		"/C/xampp/htdocs/my_gulp_work_flow/ash/register.html",
 		"/C/xampp/htdocs/my_gulp_work_flow/ash/config.rb",
 		"/C/xampp/htdocs/my_gulp_work_flow/ash/css/style_sh.css",
-		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/js/i18n/defaults-ar_AR.min.js",
 		"/C/xampp/htdocs/my_gulp_work_flow/ash/sass/style_sh.scss",
 		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/html/14.settings-general.html",
 		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/html/html_Moudles/sidebar-nav.html",
-		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/html/4.authentication.html",
-		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/html/4.passwordreset.html",
 		"/E/torrentz/4.authentication.html",
 		"/C/xampp/htdocs/my_gulp_work_flow/trainer/angularjsbyexample-master/trainer/app/js/app.js",
 		"/C/xampp/htdocs/my_gulp_work_flow/trainer/angularjsbyexample-master/trainer/app/js/7MinWorkout/workout.js",
@@ -707,10 +732,8 @@
 		"/C/xampp/htdocs/my_gulp_work_flow/bootstrap/bower.json",
 		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/19.CRM-quickadd.html",
 		"/C/Users/Dell/Desktop/Stock take of last two month.md",
-		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/sass/style.scss",
 		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/sass/_layout.scss",
 		"/E/Templates/html-templates/components/snippets/table/angular table/anglular-table.html",
-		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/sass/base/_variables.scss",
 		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/sass/components/_buttons.scss",
 		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/html/11.Setup-Business---Step-5.html",
 		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/html/10.Setup-Business---Step-4.html",
@@ -756,26 +779,7 @@
 		"/F/Torrentz/Angular JS/Lynda - Building a Responsive Single Page Design/Exercise Files/responsive/builds/development/js/script.js",
 		"/C/xampp/htdocs/my_gulp_work_flow/Single page Design/index.html",
 		"/F/Torrentz/Angular JS/Lynda - Building a Responsive Single Page Design/Exercise Files/responsive/builds/development/index.html",
-		"/C/xampp/htdocs/my_gulp_work_flow/Single page Design/gulpfile.js",
-		"/F/Torrentz/Angular JS/Lynda - Building a Responsive Single Page Design/Exercise Files/responsive/builds/development/js/jquery.scrollmagic.min.js",
-		"/F/Torrentz/Angular JS/Lynda - Building a Responsive Single Page Design/Exercise Files/responsive/builds/development/js/jqloader.js",
-		"/F/Torrentz/Angular JS/Lynda - Building a Responsive Single Page Design/Exercise Files/responsive/builds/production/js/script.js",
-		"/F/Torrentz/Angular JS/Lynda - Building a Responsive Single Page Design/Exercise Files/responsive/gulpfile.js",
-		"/F/Torrentz/Angular JS/Lynda - Building a Responsive Single Page Design/Exercise Files/responsive/package.json",
-		"/C/xampp/apps/wordpress/htdocs/wp-content/plugins/front-to-back/sass/widget.scss",
-		"/C/xampp/apps/wordpress/htdocs/wp-content/plugins/front-to-back/js/admin.js",
-		"/C/xampp/apps/wordpress/htdocs/wp-content/plugins/front-to-back/views/widget.php",
-		"/C/xampp/apps/wordpress/htdocs/wp-content/plugins/front-to-back/views/admin.php",
-		"/C/xampp/apps/wordpress/htdocs/wp-content/plugins/front-to-back/plugin.php",
-		"/C/xampp/apps/wordpress/htdocs/wp-content/plugins/front-to-back/css/admin.css",
-		"/C/xampp/apps/wordpress/htdocs/wp-content/plugins/front-to-back/sass/admin.scss",
-		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/minimal/ocmx/widgets/twitter-widget.php",
-		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/minimal/ocmx/widgets/social-widget.php",
-		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/minimal/ocmx/widgets/search-widget.php",
-		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/minimal/ocmx/widgets/popular-posts-widget.php",
-		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/minimal/ocmx/widgets/latest-comments.php",
-		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/minimal/ocmx/folder-class.php",
-		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/minimal/functions.php"
+		"/C/xampp/htdocs/my_gulp_work_flow/Single page Design/gulpfile.js"
 	],
 	"find":
 	{
@@ -794,6 +798,20 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"small",
+			"Coderthemes",
+			"#form-id",
+			"left-block",
+			"login",
+			"#form-id",
+			"login-2",
+			"col-sm-5",
+			"emailAddress",
+			"email",
+			"emailAddress",
+			"text-black",
+			"email",
+			"#form-id",
 			"left",
 			".setting-wrapper",
 			"settings-navigation",
@@ -907,20 +925,6 @@
 			"3",
 			"<li><a href=\"3\"></a></li>",
 			"h3",
-			"2",
-			"8",
-			"2",
-			"1",
-			"5",
-			"6",
-			"5",
-			"-4",
-			"4",
-			"6",
-			"CASA_USUARIOS",
-			"white",
-			"<a",
-			"buton",
 			"2"
 		],
 		"highlight": true,
@@ -1017,15 +1021,15 @@
 					"buffer": 0,
 					"settings":
 					{
-						"buffer_size": 317,
+						"buffer_size": 541,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								307,
-								307
+								264,
+								264
 							]
 						],
 						"settings":
@@ -1040,6 +1044,18 @@
 							[
 								{
 									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
 									"selector": "text.html"
 								},
 								{
@@ -1260,20 +1276,28 @@
 		"selected_items":
 		[
 			[
-				"nav",
-				"sass/layout/_nav.scss"
+				"main",
+				"sass/layout/_main.scss"
+			],
+			[
+				"amin",
+				"js/i18n/defaults-ar_AR.min.js"
 			],
 			[
 				"res",
 				"sass/layout/_responsive.scss"
 			],
 			[
-				"main",
-				"sass/layout/_main.scss"
-			],
-			[
 				"hel",
 				"sass/base/_helpers.scss"
+			],
+			[
+				"sty",
+				"sass/style_ubold.scss"
+			],
+			[
+				"nav",
+				"sass/layout/_nav.scss"
 			],
 			[
 				"head",
@@ -1290,10 +1314,6 @@
 			[
 				"mai",
 				"sass/layout/_main.scss"
-			],
-			[
-				"amin",
-				"js/i18n/defaults-ar_AR.min.js"
 			],
 			[
 				"help",

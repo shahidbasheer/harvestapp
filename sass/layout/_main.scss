@@ -427,11 +427,9 @@ hr.margin-28 {
 				font-size: 12px;
 				font-weight: bold;
 				padding: 18px;
-			
-			&:hover, &:focus {
-				background: #2a70e8;
-			}
-
+					&:hover, &:focus {
+					background: #2a70e8;
+					}
 			}
 			.active {
 				background: #2a70e8;
@@ -439,11 +437,11 @@ hr.margin-28 {
 			.completed {
 				background: #0e642b;
 			}
-		&:last-child a{
+			&:last-child a{
 				border-right: none;
 			}
 		}
-	}
+	}//nav
 	form {
 		padding: 0px 80px;
 		.control-label {

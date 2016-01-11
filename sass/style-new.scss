@@ -1,0 +1,82 @@
+.setup-panel {
+	.modal-header h4 { text-align: left;  }
+	.navbar-inverse-modal {
+	    background-color: #5d9cec ;
+	    border-color: #5d9cec ;
+	    color: #fff;
+	}
+	.nav {
+		li {
+			a {
+				color: #fff;
+				border-right: 1px solid #a8c7b3;
+				font-size: 12px;
+				font-weight: bold;
+				//padding: 18px;
+					&:hover, &:focus {
+					background: #2a70e8;
+					}
+			}
+			.active {
+				background: #2a70e8;
+			}
+			.completed {
+				background: #0e642b;
+			}
+			&:last-child a{
+				border-right: none;
+			}
+		}
+	}//nav
+	.nav > li > a {
+	    color: #fff !important; 
+	}
+
+	form .control-label {
+	    padding: 0;
+	    text-align: left;
+	    padding-bottom: 10px;
+	}
+	.modal-header {
+	    min-height: 16.43px;
+	    padding: 10px 30px;
+	    border-bottom: 1px solid transparent;
+	}
+	.modal-body {
+	    position: relative;
+	    padding: 15px;
+	    padding-top: 0px;
+	}
+	h4 {    text-align: center; }
+	.row-nav { margin-left: -26px; margin-right: -26px;  }
+}//
+
+
+
+
+
+ 
+
+
+
+///============================================================Genral =================================
+
+.no-padding {
+	    padding: 0 !important;
+}
+
+//==================================================================== Medeia Query
+
+
+@media (max-width: 768px) {
+		
+		.setup-panel {
+			.nav > li > a {
+				line-height: 26px;
+			 }
+			.nav-justified>li>a {
+    			 margin-bottom: 5px; 
+    		}
+		}//
+}
+

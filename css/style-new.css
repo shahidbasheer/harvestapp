@@ -1,0 +1,66 @@
+.setup-panel .modal-header h4 {
+  text-align: left;
+}
+.setup-panel .navbar-inverse-modal {
+  background-color: #5d9cec;
+  border-color: #5d9cec;
+  color: #fff;
+}
+.setup-panel .nav li a {
+  color: #fff;
+  border-right: 1px solid #a8c7b3;
+  font-size: 12px;
+  font-weight: bold;
+}
+.setup-panel .nav li a:hover, .setup-panel .nav li a:focus {
+  background: #2a70e8;
+}
+.setup-panel .nav li .active {
+  background: #2a70e8;
+}
+.setup-panel .nav li .completed {
+  background: #0e642b;
+}
+.setup-panel .nav li:last-child a {
+  border-right: none;
+}
+.setup-panel .nav > li > a {
+  color: #fff !important;
+}
+.setup-panel form .control-label {
+  padding: 0;
+  text-align: left;
+  padding-bottom: 10px;
+}
+.setup-panel .modal-header {
+  min-height: 16.43px;
+  padding: 10px 30px;
+  border-bottom: 1px solid transparent;
+}
+.setup-panel .modal-body {
+  position: relative;
+  padding: 15px;
+  padding-top: 0px;
+}
+.setup-panel h4 {
+  text-align: center;
+}
+.setup-panel .row-nav {
+  margin-left: -26px;
+  margin-right: -26px;
+}
+
+.no-padding {
+  padding: 0 !important;
+}
+
+@media (max-width: 768px) {
+  .setup-panel .nav > li > a {
+    line-height: 26px;
+  }
+  .setup-panel .nav-justified > li > a {
+    margin-bottom: 5px;
+  }
+}
+
+/*# sourceMappingURL=style-new.css.map */
