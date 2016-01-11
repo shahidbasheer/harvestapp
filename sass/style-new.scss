@@ -41,14 +41,17 @@
 	    min-height: 16.43px;
 	    padding: 10px 30px;
 	    border-bottom: 1px solid transparent;
+	    
 	}
 	.modal-body {
 	    position: relative;
-	    padding: 15px;
+	    padding: 10px;
 	    padding-top: 0px;
 	}
 	h4 {    text-align: center; }
 	.row-nav { margin-left: -26px; margin-right: -26px;  }
+	.modal .modal-dialog .modal-content .modal-header { padding-bottom: 15px; }
+	.modal .modal-dialog .modal-content .modal-body { padding-top: 0px; }
 }//
 
 

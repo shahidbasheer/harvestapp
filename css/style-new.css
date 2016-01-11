@@ -39,7 +39,7 @@
 }
 .setup-panel .modal-body {
   position: relative;
-  padding: 15px;
+  padding: 10px;
   padding-top: 0px;
 }
 .setup-panel h4 {
@@ -48,6 +48,12 @@
 .setup-panel .row-nav {
   margin-left: -26px;
   margin-right: -26px;
+}
+.setup-panel .modal .modal-dialog .modal-content .modal-header {
+  padding-bottom: 15px;
+}
+.setup-panel .modal .modal-dialog .modal-content .modal-body {
+  padding-top: 0px;
 }
 
 .no-padding {
