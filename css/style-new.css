@@ -78,6 +78,9 @@
   font-size: 10px;
   margin-right: 6px;
 }
+.setup-panel .btn {
+  margin-top: 30px;
+}
 
 div#tbl {
   height: 40px;
