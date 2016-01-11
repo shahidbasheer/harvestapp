@@ -19,7 +19,7 @@
   background: #2a70e8;
 }
 .setup-panel .nav li .completed {
-  background: #0e642b;
+  background: #2a70e8;
 }
 .setup-panel .nav li:last-child a {
   border-right: none;
@@ -64,6 +64,9 @@
 }
 .setup-panel .modal .modal-dialog .modal-content .modal-body {
   padding-top: 0px;
+}
+.setup-panel .modal .modal-dialog .modal-content {
+  padding: 36px 25px;
 }
 .setup-panel .top a {
   margin-top: 8px;
@@ -144,10 +147,23 @@ div#tbl {
 }
 .hours-left-panel input {
   height: 38px !important;
+  padding: 0px 4px;
+  background-image: url("../images/dropdown.png");
+  background-position: 62px 16px;
+  background-repeat: no-repeat;
+}
+
+.hours input {
+  height: 38px !important;
   padding: 0px 12px;
   background-image: url("../images/dropdown.png");
-  background-position: 60px 16px;
+  background-position: 72px 16px;
   background-repeat: no-repeat;
+}
+
+.icons {
+  padding: 20px 82px;
+  text-align: center;
 }
 
 .no-padding {

@@ -1,0 +1,191 @@
+
+.top-menu {
+    margin-right: 30px;
+    font-family: sans-serif;    
+    font: 900 14.78px Vrinda;
+}
+
+.logo {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.title {
+    margin-top: 100px;
+    color: #000000;
+    font: 400 22.17px Impact;
+}
+
+.footer {
+    color: #000000;
+    font: 400 18.43px Vrinda;
+    
+}
+
+.Contact {    
+    color: #020202;
+    font: 500 16.92px Vrinda;
+    list-style-type: none;
+    margin-top: 110px;
+    margin-bottom: 150px;
+}
+
+.media {
+    font: 900 18px Vrinda;
+    list-style-type: none;        
+}
+
+.titles {
+    font: 700 14.78px Vrinda;
+}
+
+
+.subtext {
+    color: #020101;
+    font: 400 16px Vrinda;
+    list-style-type: none;
+    line-height: 130%;
+}
+
+.Terms {
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+
+
+.sizing {
+     width: 40%;
+    margin-left:auto; 
+    margin-right:auto;
+    margin-top: 30px;
+    margin-bottom: 30px; 
+    
+}
+th{
+    class="text-center"
+}
+.member {
+    display: inline;
+}
+
+.new {
+    margin-top: 150px;
+   
+}
+
+.member {
+    
+    font: 400 18.78px Impact;
+}
+
+
+
+.account {
+    margin-top: 30px;
+    color: #020202;
+    font: 400 16.78px Vrinda;
+    margin-bottom: 30px;
+}
+
+
+
+.botton {
+    margin-left: 80px;
+    margin-top: 50px;
+}
+
+.registration {
+    margin-top: 150px;
+}
+
+.membertext {
+    margin-top: 30px;
+    color: #727272;
+    font: 700 14.78px Vrinda;
+}
+
+
+.about {
+    color: #000000;
+    font: 500 17.78px Vrinda;
+    margin-top: 80px;
+    margin-bottom: 120px;
+}
+
+.url {
+    margin-top: 120px;
+    margin-bottom: 200px;
+}
+
+#hr {
+       background-color:#cccbca;
+    color:#cccbca;
+    -webkit-transform:rotate(90deg);
+    position:absolute;
+    width:300px;
+    height:2px;
+    right:550px;
+    border:2px;
+    margin-top: 335px;
+    
+}
+
+.page {
+    margin-bottom: 80px;    
+}
+
+.input {
+    color: #020202;
+    font: 700 14.78px Vrinda;
+}
+
+#tab {
+    color: #020101;
+    font: 400 22.17px Impact;
+    text-align: center;
+}
+
+.td {
+    color: #020101;
+    font: 400 13.85px Vrinda;
+}
+
+.termtitle {   
+    color: #000000;
+    font: 400 22.17px Impact;
+}
+
+.storetitle {
+   color: #000000;
+    font: 400 22.17px Impact;
+}
+
+.cont {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.descript {
+    margin-top: 40px;
+}
+
+#storehr {
+    background-color:#000000;
+    color:#000000;
+    -webkit-transform:rotate(90deg);
+    position:absolute;
+    width:430px;
+    height:2px;    
+    right: 500px;
+    border:2px;
+    bottom: 200px;
+       
+}
+
+.all {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
