@@ -32,6 +32,16 @@
   text-align: left;
   padding-bottom: 10px;
 }
+.setup-panel form .checkbox {
+  padding-top: 40px;
+}
+.setup-panel form.page-3 .form-group {
+  margin-left: 0;
+  margin-right: 0;
+}
+.setup-panel form.hours {
+  padding: 0px 80px;
+}
 .setup-panel .modal-header {
   min-height: 16.43px;
   padding: 10px 30px;
@@ -55,9 +65,115 @@
 .setup-panel .modal .modal-dialog .modal-content .modal-body {
   padding-top: 0px;
 }
+.setup-panel .top a {
+  margin-top: 8px;
+  display: block;
+  font-size: 14px;
+  color: #000;
+}
+.setup-panel .top a i {
+  font-size: 10px;
+  margin-right: 6px;
+}
+
+div#tbl {
+  height: 40px;
+  display: table;
+  width: 100%;
+  border-spacing: 0 5px;
+}
+
+#tbl .row {
+  display: table-row;
+  margin-top: 4px;
+}
+
+#tbl .group {
+  height: 40px;
+  color: #000;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+#tbl .group-40 {
+  width: 40%;
+}
+
+#tbl .group-20 {
+  width: 20%;
+}
+
+#tbl .group-25 {
+  width: 25%;
+}
+
+#tbl .group-30 {
+  width: 30%;
+}
+
+#tbl .group-21 {
+  width: 21%;
+}
+
+#tbl .group-10 {
+  width: 10%;
+}
+
+.well.hours {
+  border: 1px solid transparent;
+  color: #000;
+  border-radius: 2px;
+  -webkit-box-shadow: none;
+  box-shadow: inset 0 0px 0px transparent;
+  font-size: 16px;
+  padding: 12px;
+}
+.well.hours .timezone {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.hours-left-panel {
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 20px;
+}
+.hours-left-panel #tbl {
+  padding-right: 60px;
+}
+.hours-left-panel input {
+  height: 38px !important;
+  padding: 0px 12px;
+  background-image: url("../images/dropdown.png");
+  background-position: 66px 16px;
+  background-repeat: no-repeat;
+}
 
 .no-padding {
   padding: 0 !important;
+}
+
+.no-padding-top {
+  padding-top: 0 !important;
+}
+
+.no-padding-top-10 {
+  padding-top: 10px !important;
+}
+
+.block-center {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.text-left {
+  text-align: left !important;
+}
+
+.bold {
+  font-weight: bold;
 }
 
 @media (max-width: 768px) {
