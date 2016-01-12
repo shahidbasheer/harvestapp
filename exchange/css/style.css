@@ -764,6 +764,7 @@ a.logo {
   padding: 6px 20px;
   background: #e4f8ff;
   border: 1px solid #c2c2c2;
+  padding-bottom: 12px;
 }
 .exchange-table-filter p.heading {
   color: #21366e;
