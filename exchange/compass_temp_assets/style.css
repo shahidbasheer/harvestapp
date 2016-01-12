@@ -878,6 +878,15 @@ a.logo {
   opacity: 1;
   margin-top: 10px;
 }
+.loan-application-2 .heading {
+  color: #000;
+  border-bottom: 1px  solid #cccccc;
+}
+.loan-application-2 .heading h4 {
+  color: #000;
+  margin-top: 24px;
+  margin-bottom: 20px;
+}
 
 .loan-application-show-2 {
   transition: 1s;
