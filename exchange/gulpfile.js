@@ -167,6 +167,7 @@ var gulp = require('gulp'),
 
 		// sass changes
 		gulp.watch( rootAddress  + 'sass/**/*.scss',  ['compass'] );
+		gulp.watch([ rootAddress  +  'html/*.html'],  ['html'] );
 		
 
 	});
