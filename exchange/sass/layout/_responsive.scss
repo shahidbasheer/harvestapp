@@ -1,0 +1,159 @@
+/*
+ * ----------------------------------------------------------------------------------------
+ * Responsive.
+ * ----------------------------------------------------------------------------------------
+ */
+
+
+@media (min-width: 768px) { 
+
+.col-sm-2 {
+    width: 18.666667% !important;
+}
+.col-sm-10 {
+    width: 81.333333% !important;
+}
+
+}
+
+@media (max-width: 768px) { 
+
+.col-sm-2 {
+    width: 18.666667% !important;
+}
+.col-sm-10 {
+    width: 81.333333% !important;
+}
+
+}
+
+
+// xs-extra-small
+@media (max-width: 767px) {
+	
+
+} // xs-extra-small
+
+
+
+// sm-small 
+@media (min-width: 768px) and (max-width: 991px) {
+  	.states ul li i {
+    display: inline-block;
+    font-size: 27px;
+    vertical-align: -webkit-baseline-middle;
+    margin-right: 12px;
+  }
+  .states ul .text h4 {
+      margin: 0;
+      font-size: 22px;
+      text-align: left;
+  }
+	
+} // sm-small 
+
+
+
+// md-medium
+@media (min-width: 992px) and (max-width: 1199px) {
+	 .states {
+    margin-left: 5px; 
+   }
+
+   .states ul li i {
+    display: inline-block;
+    font-size: 27px;
+    vertical-align: -webkit-baseline-middle;
+    margin-right: 12px;
+  }
+  .states ul .text h4 {
+      margin: 0;
+      font-size: 22px;
+      text-align: left;
+  }
+  
+  .exchange-table-filter .form-group {
+        
+        max-width: 140px;
+     } 
+	 
+} // smd-medium
+
+//lg-large
+@media (min-width: 1200px) {
+   .due-del-step-2 .nav.tabs ,.due-del-step-1 .nav.tabs {
+    width: 119.5%;
+      
+  }
+  .due-del-step-1 .status-bar ul li a {
+  
+    font-weight: bold;
+    font-size: 13px;
+  
+  }
+  .due-del-step-2 .status-bar ul a {
+     width: 24.95%;
+  }
+
+  .states ul li {
+  
+    padding: 16px;
+  
+  } 
+  .exchange-table-filter .form-group {
+        
+        max-width: 180px;
+     }
+} ///lg-large
+
+// md-medium
+@media (min-width: 1096px) and (max-width: 1199px) {
+  
+   .due-del-step-1 .status-bar ul li  {
+    width: 24.95%;
+   }
+    .due-del-step-1 .status-bar ul li a {
+    font-size: 12px;
+    font-weight: bold;     
+    }
+
+
+   .due-del-step-2 .status-bar ul a{
+    width: 24.95%;
+ 
+    }
+
+  .due-del-step-2 .status-bar ul  a{
+ 
+    font-size: 14px;
+    font-weight: bold;
+ 
+  }
+  .due-del-step-2 .status-bar ul  a {
+    padding: 16px 10px;
+  }
+
+  .due-del-step-2 .nav.tabs , .due-del-step-1 .nav.tabs {
+    
+    width: 126.8%;
+    
+  }
+
+  .states {
+    margin-left: 2px; 
+  }
+  .states ul li i {
+      margin-right: 16px;
+  }
+
+  
+} // smd-medium
+
+
+@media (min-width: 1220px) { 
+   .exchange-table-filter .form-group {
+        
+        max-width: 200px;
+     }
+
+}

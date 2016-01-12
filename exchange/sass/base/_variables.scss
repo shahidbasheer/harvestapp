@@ -1,0 +1,42 @@
+$orange: #f16209;
+.orange {
+	color: $orange;
+}
+
+$green: #00d400;
+.green {
+	color: $green;
+}
+
+$blue: #47c7f4;
+.blue {
+	color: $blue;
+}
+
+$dark-blue: #21366e;
+.dark-blue {
+	color: $dark-blue;
+}
+
+$border-bg: #f0f0f0;
+
+$text-color: #535c72;
+
+.text-color  {
+	color: $text-color;
+}
+
+$gray-bg: #ebeff3; 
+
+.gray-bg {
+	background:	$gray-bg;
+}
+$dark-blud-text: #21366e;
+
+.dark-blud-text {
+	color: $dark-blud-text;
+}
+
+.dark-blue-bg {
+	background: $dark-blue !important;
+}

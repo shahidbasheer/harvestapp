@@ -1,0 +1,94 @@
+/* -----------------------------
+-------- Buttons
+ ------------------------------*/
+
+//@include button-variant($btn-default-color, $btn-default-bg, $btn-default-border);
+//@include button-size($padding-large-vertical, $padding-large-horizontal, $font-size-large, $line-height-large, $btn-border-radius-large);
+
+.btn { 
+	font-weight: normal;
+	border: 1px solid transparent;
+	@include button-size( 6px , 38px , 14px,  1.42857143, 16px);
+}
+
+.btn-dashboard { 
+  font-weight: bold;
+  border: 1px solid transparent;
+  @include button-size( 10px , 26px , 14px,  1.42857143, 6px);
+}
+
+.btn-table { 
+  font-weight: bold;
+  border: 1px solid transparent;
+  @include button-size( 6.4px , 16px , 14px,  1.42857143, 0px);
+}
+
+
+// Success appears as green
+
+.btn-light-blue {
+  @include button-variant( #000000 , #4fc9f4 , #4fc9f4 );
+}
+
+.btn-light-blue-sharp {
+  @include button-variant( #fff , #2f65ff , #2f65ff );
+}
+
+.btn-default {
+  @include button-variant( #fff , #21366e , #21366e );
+}
+
+.btn-dark-blue {
+  @include button-variant( #fff , $dark-blue , $dark-blue );
+}
+
+.btn-green {
+  @include button-variant( #fff , #51d836 , #51d836 );
+}
+
+.btn-success {
+  @include button-variant( #fff , #51d836 , #51d836 );
+}
+.btn-table {
+  @include button-variant( #000 , #00bad0 , #00bad0 );
+}
+.btn-table-inactive {
+  @include button-variant( #fff , #585858 , #585858 );
+}
+
+
+
+//size of btn
+
+.btn-lg {
+  @include button-size( 10px , 16px , 18px, 1.3333333, 6px);
+}
+
+.btn-sm {
+  @include button-size( 5px , 10px , 12px, 1.5, 3px);
+}
+
+.btn-xs {
+  @include button-size( 1px , 5px , 12px, 1.5, 3px);
+}
+
+
+
+@mixin button-bg($bg) {
+  background: $bg;
+  &:hover {
+    background:darken($bg,8%);
+    transition: all 0.3s ease;
+  }
+  &:active {
+    background:darken($bg,25%);
+  } 
+}
+
+.btn-blue {
+   @include button-bg(#3498db);
+}
+
+.btn {
+  font-weight: bold;
+}

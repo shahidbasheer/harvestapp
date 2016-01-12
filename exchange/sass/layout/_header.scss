@@ -1,0 +1,60 @@
+/*
+ * ----------------------------------------------------------------------------------------
+ * Header styles.
+ * ----------------------------------------------------------------------------------------
+ */
+
+
+
+
+.top-header {
+	padding: 24px 30px;
+	color: #fff !important;
+	background: $blue;
+	margin-left: -15px;
+	margin-right: -15px;
+	h1 {
+		margin:0;
+	}
+ 	
+    
+
+}
+
+.bottom-header {
+	padding: 10px 36px;
+	background: $gray-bg;	
+	margin-left: -15px;
+	margin-right: -15px;
+	margin-bottom: 20px;
+	// position: fixed;
+ //    top: 0;
+ //    width: 100%;
+    
+
+	ul {
+		margin-bottom: 0;
+		li {
+
+			a {
+				font-weight: bold;
+				font-size: 16px;
+
+				&:after {
+					content: "/";
+					padding-left: 10px;
+				}
+
+			}
+		}
+		li:last-child {
+			a:after {
+				content: none;
+			}
+		}
+	}
+}
+
+.logo {
+	background: url('../images/logo.png') no-repeat;
+}
