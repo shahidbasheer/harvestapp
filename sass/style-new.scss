@@ -39,7 +39,7 @@
 		    padding-bottom: 10px;
 		}
 	     .checkbox {
-	    	    padding-top: 40px;
+	    	padding-top: 40px;
 	    }
 	    
 	}
@@ -49,10 +49,12 @@
 	    	margin-left: 0;
     		margin-right: 0;
 	    }
+
+	    label {margin-top: 20px; }
 	}
-	form.hours {
-	    padding: 0px 80px;
-	}
+	// form.hours {
+	//     padding: 0px 80px;
+	// }
 	.modal-header {
 	    min-height: 16.43px;
 	    padding: 10px 30px;
@@ -68,7 +70,7 @@
 	.row-nav { margin-left: -26px; margin-right: -26px;  }
 	.modal .modal-dialog .modal-content .modal-header { padding-bottom: 15px; }
 	.modal .modal-dialog .modal-content .modal-body { padding-top: 0px; }
-	.modal .modal-dialog .modal-content {  padding: 36px 25px; }
+	.modal .modal-dialog .modal-content {  padding: 26px 25px 36px; }
 	.top a {
 	    margin-top: 8px;
 	    display: block;
@@ -143,7 +145,7 @@ width: 30%;
 			height: 38px !important;
 			padding: 0px 4px;
 			background-image: url('../images/dropdown.png');
-	   		background-position: 62px 16px;	
+	   		background-position: 90% 16px;	
 	   		background-repeat: no-repeat;
 		}
 }
@@ -152,7 +154,7 @@ width: 30%;
     height: 38px !important;
     padding: 0px 12px;
     background-image: url("../images/dropdown.png");
-    background-position: 72px 16px;
+    background-position: 90% 16px;
     background-repeat: no-repeat;
 }
 
