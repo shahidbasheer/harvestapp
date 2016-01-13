@@ -1249,6 +1249,39 @@ a.logo {
   margin-right: 4px;
 }
 
+.modal-credit-box .modal-content {
+  border-radius: 0px;
+  outline: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.modal-credit-box .notification {
+  background: #428BCA;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 8px  10px;
+  color: #fff;
+  margin-bottom: 10px;
+  margin-left: -15px;
+  margin-right: -15px;
+  margin-top: -15px;
+  max-width: 80%;
+}
+.modal-credit-box .notification p {
+  margin: 0;
+}
+.modal-credit-box p.asset {
+  font-size: 14px;
+  font-weight: bold;
+  color: #000;
+}
+.modal-credit-box .table {
+  margin-bottom: 0;
+}
+.modal-credit-box .table-bottom-text {
+  text-align: center;
+}
+
 /*
  * ----------------------------------------------------------------------------------------
  * Sidebar styles.
