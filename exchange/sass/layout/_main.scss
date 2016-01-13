@@ -814,6 +814,7 @@ padding: 0 36px;
 	      outline: 0;
 	      -webkit-box-shadow:none;
 	      box-shadow:none;
+	      padding: 10px 0px 40px; 
     	}
     	.notification {
     		background: #428BCA; font-size: 13px; font-weight: bold; padding: 8px  10px; color: #fff;  
@@ -826,7 +827,10 @@ padding: 0 36px;
     	}
     	p.asset {font-size: 14px; font-weight: bold; color: #000;  }
     	.table {margin-bottom: 0; }
+    	.table tbody tr td:last-child {text-align: right;}
     	.table-bottom-text { text-align: center;  }
+    	.text-center {text-align: center !important;}
+    	
 	
  }
  

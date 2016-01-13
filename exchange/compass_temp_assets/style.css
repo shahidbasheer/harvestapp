@@ -1254,6 +1254,7 @@ a.logo {
   outline: 0;
   -webkit-box-shadow: none;
   box-shadow: none;
+  padding: 10px 0px 40px;
 }
 .modal-credit-box .notification {
   background: #428BCA;
@@ -1278,8 +1279,14 @@ a.logo {
 .modal-credit-box .table {
   margin-bottom: 0;
 }
+.modal-credit-box .table tbody tr td:last-child {
+  text-align: right;
+}
 .modal-credit-box .table-bottom-text {
   text-align: center;
+}
+.modal-credit-box .text-center {
+  text-align: center !important;
 }
 
 /*
