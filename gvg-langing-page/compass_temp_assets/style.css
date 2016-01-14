@@ -1,0 +1,421 @@
+.jumbotron {
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 150px;
+  background-image: url("../images/banner-bg.png");
+  background-repeat: repeat-x;
+  height: 600px;
+}
+.jumbotron h1 {
+  font-size: 48px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.jumbotron ul li {
+  font-size: 20px;
+}
+
+section {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 60px;
+}
+
+.about-section {
+  padding: 0 200px;
+  text-align: left;
+  margin-bottom: 100px;
+}
+.about-section h3 {
+  text-align: center;
+}
+.about-section h3 {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.about-section p {
+  font-size: 20px;
+}
+
+.lp__lear-more {
+  border-bottom: 1px solid #e2e2e2;
+}
+.lp__lear-more .active-tab {
+  color: #d9d9d9;
+}
+.lp__lear-more .carousel-yello {
+  color: #ffb400;
+}
+.lp__lear-more .tab-pane {
+  padding-bottom: 20px;
+  padding-top: 40px;
+}
+.lp__lear-more ul.nav-tabs {
+  text-align: center;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+.lp__lear-more ul.nav-tabs li {
+  float: none;
+  display: inline-block;
+  width: 30%;
+}
+.lp__lear-more ul.nav-tabs li.active a {
+  background: #f4f4f4;
+  color: #000;
+}
+.lp__lear-more ul.nav-tabs li a {
+  background: #d9d9d9;
+  color: #000;
+  border-radius: 10px 10px 0 0;
+  padding: 10px 15px;
+  font-weight: bold;
+}
+.lp__lear-more .tab-content {
+  background: #f4f4f4;
+  padding: 0 200px;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+.lp__lear-more .tab-content ul {
+  float: right;
+}
+
+.lp__lear-more_anchor {
+  max-width: 166px;
+  display: block;
+  position: relative;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fcfeff+0,eeeeee+46 */
+  background: #fcfeff;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #fcfeff 0%, #eeeeee 46%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #fcfeff 0%, #eeeeee 46%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #fcfeff 0%, #eeeeee 46%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfeff', endColorstr='#eeeeee',GradientType=0 );
+  /* IE6-9 */
+  border: 1px solid #cccccc;
+  text-decoration: none;
+  margin-bottom: 16px;
+  padding: 6px;
+}
+.lp__lear-more_anchor p.heading {
+  font-family: 'Passion One', cursive;
+  color: #336699;
+  line-height: 1;
+  font-size: 16px;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+.lp__lear-more_anchor p.small {
+  color: #565656;
+  font-size: 14px;
+  /* font-weight: bold; */
+  line-height: 1;
+  max-width: 100px;
+}
+.lp__lear-more_anchor:hover {
+  text-decoration: none;
+}
+.lp__lear-more_anchor img {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  display: block;
+  font-size: 14px;
+  width: 40px;
+  height: auto;
+}
+
+.lp__testimonial {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 20px;
+  margin-bottom: 80px;
+}
+.lp__testimonial .lp__testimonial__block {
+  padding: 24px 0;
+  border-bottom: 2px solid #ededed;
+}
+.lp__testimonial .lp__testimonial__block p {
+  color: #979191;
+}
+.lp__testimonial .lp__testimonial__block img {
+  display: inline-block;
+  margin-right: 10px;
+  position: relative;
+  width: 100px;
+  height: auto;
+}
+.lp__testimonial .lp__testimonial__block .msg {
+  font-style: italic;
+  line-height: 1;
+  font-size: 14px;
+  margin-top: 24px;
+}
+.lp__testimonial .lp__testimonial__block p.customer {
+  font-size: 14px;
+}
+.lp__testimonial .lp__testimonial__block span.black {
+  color: #000;
+}
+.lp__testimonial .lp__testimonial__block span.fa {
+  display: block;
+  background: #ddd;
+  width: 38px;
+  height: 38px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding: 14px;
+  font-size: 12px;
+  color: #fff;
+}
+
+.lp__before-and-after {
+  position: relative;
+  text-align: center;
+}
+.lp__before-and-after h3 {
+  margin-bottom: 30px;
+}
+.lp__before-and-after .inner {
+  padding: 40px 200px;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.lp__before-and-after .btn-top {
+  position: absolute;
+  right: 50%;
+  top: -20px;
+  left: 39%;
+  min-width: 200px;
+  border-radius: 0;
+}
+.lp__before-and-after .btn-div .btn {
+  margin-bottom: -100px;
+  border: 6px solid #ededed;
+  border-radius: 4px;
+}
+.lp__before-and-after ul li img {
+  width: 140px;
+  height: auto;
+}
+
+.lp__blog {
+  padding: 10px 200px;
+}
+.lp__blog h4 {
+  color: #003e78;
+}
+.lp__blog ul li {
+  padding-bottom: 16px;
+  border-bottom: 1px solid #d1d1d1;
+  margin-bottom: 16px;
+  max-width: 94%;
+}
+.lp__blog ul li a {
+  color: #262626;
+  /* padding-bottom: 20px; */
+  text-decoration: none;
+  font-size: 14px;
+}
+.lp__blog .dr-msg {
+  background: #eef7ff;
+  border: 1px solid #0163be;
+  padding: 20px;
+  position: relative;
+  height: 400px;
+}
+.lp__blog .dr-msg p {
+  margin: 0px;
+  /* max-width: 300px; */
+}
+.lp__blog .dr-msg p.msg-small-text {
+  max-width: 280px;
+}
+.lp__blog .dr-msg img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 220px;
+  height: auto;
+}
+.lp__blog .m-b-30 {
+  margin-bottom: 20px;
+}
+
+.lp__faqs {
+  background: #fefbf3;
+  border-bottom: 1px solid #c9c9c9;
+  border-top: 1px solid #c9c9c9;
+  padding: 50px 200px;
+}
+.lp__faqs .lp__faqs_heading {
+  position: relative;
+  background: #fdc92b;
+  border-radius: 4px;
+  padding: 14px 20px;
+  margin-bottom: 50px;
+}
+.lp__faqs .lp__faqs_heading p {
+  margin-bottom: 0;
+  font-weight: bold;
+}
+.lp__faqs .lp__faqs_heading img {
+  position: absolute;
+  right: 30px;
+  top: -20px;
+  width: 80px;
+  height: auto;
+}
+.lp__faqs .panel-default > .panel-heading {
+  background-color: #fff;
+}
+.lp__faqs .panel-group .panel {
+  margin-bottom: 14px;
+}
+
+.lp__appointmetn-bottom {
+  padding: 10px 200px;
+}
+.lp__appointmetn-bottom .innner {
+  border: 2px solid #ffbf87;
+  border-radius: 4px;
+  width: 500px;
+  height: 400px;
+  margin: 0 auto;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.btn-orange-top {
+  color: #ffffff;
+  background-color: #ffae00;
+  border-color: #ffae00;
+}
+
+.btn-orange-top:hover,
+.btn-orange-top:focus,
+.btn-orange-top:active,
+.btn-orange-top.active {
+  color: #ffffff;
+  background-color: #E69500;
+  border-color: #E69500;
+}
+
+.btn-orange-btm {
+  color: #ffffff;
+  background-color: #ea641f;
+  border-color: #ea641f;
+}
+
+.btn-orange-btm:hover,
+.btn-orange-btm:focus,
+.btn-orange-btm:active,
+.btn-orange-btm.active {
+  color: #ffffff;
+  background-color: #D14B06;
+  border-color: #D14B06;
+}
+
+.btn-orange-2 {
+  color: #ffffff;
+  background-color: #a26565;
+  border-color: #a26565;
+}
+
+.btn-orange-2:hover,
+.btn-orange-2:focus,
+.btn-orange-2:active,
+.btn-orange-2.active {
+  color: #ffffff;
+  background-color: #894C4C;
+  border-color: #894C4C;
+}
+
+@media (max-width: 767px) {
+  .lp__before-and-after .inner {
+    padding: 40px 100px;
+  }
+
+  .lp__blog {
+    padding: 10px 100px;
+  }
+
+  .lp__faqs {
+    padding: 50px 100px;
+  }
+
+  .lp__lear-more .tab-content {
+    padding: 0 100px;
+  }
+
+  .lp__lear-more .tab-content ul {
+    float: none;
+  }
+  .lp__lear-more .tab-content ul li a {
+    margin-right: 6px;
+    float: left;
+  }
+
+  .lp__testimonial {
+    padding: 20px 100px;
+  }
+
+  .about-section {
+    padding: 0 100px;
+    margin-bottom: 50px;
+  }
+
+  section {
+    margin-bottom: 40px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .lp__before-and-after .inner {
+    padding: 40px 100px;
+  }
+
+  .lp__blog {
+    padding: 10px 100px;
+  }
+
+  .lp__faqs {
+    padding: 50px 100px;
+  }
+
+  .lp__lear-more .tab-content {
+    padding: 0 100px;
+  }
+
+  .lp__testimonial {
+    padding: 20px 100px;
+  }
+
+  .about-section {
+    padding: 0 100px;
+    margin-bottom: 50px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .lp__testimonial {
+    padding: 20px 100px;
+  }
+}
+@media (min-width: 1200px) {
+  .hidden-lg {
+    display: none !important;
+  }
+}
+.visible-print {
+  display: none !important;
+}
+
+/*# sourceMappingURL=style.css.map */
