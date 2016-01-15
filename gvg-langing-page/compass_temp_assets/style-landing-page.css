@@ -1,10 +1,24 @@
+#landing-page {
+  margin-top: -21px;
+}
+
 .jumbotron {
+  position: relative;
   padding-left: 100px;
   padding-right: 100px;
   padding-top: 150px;
-  background-image: url("../images/banner-bg.png");
-  background-repeat: repeat-y;
   height: 600px;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f0d30b+0,f1d67f+51,f0d30b+100 */
+  background: #f0d30b;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #f0d30b 0%, #FFEDB2 51%, #f0d30b 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #f0d30b 0%, #FFEDB2 51%, #f0d30b 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #f0d30b 0%, #FFEDB2 51%, #f0d30b 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0d30b', endColorstr='#f0d30b',GradientType=0 );
+  /* IE6-9 */
 }
 .jumbotron h1 {
   font-size: 48px;
@@ -22,6 +36,7 @@ section {
 }
 
 .about-section {
+  margin-top: 70px;
   padding: 0 200px;
   text-align: left;
   margin-bottom: 100px;
@@ -82,7 +97,7 @@ section {
 }
 
 .lp__lear-more_anchor {
-  max-width: 166px;
+  max-width: 176px;
   display: block;
   position: relative;
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fcfeff+0,eeeeee+46 */
@@ -130,9 +145,8 @@ section {
 }
 
 .lp__testimonial {
-  max-width: 1100px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 20px 200px;
   margin-bottom: 80px;
 }
 .lp__testimonial .lp__testimonial__block {
@@ -152,7 +166,7 @@ section {
 .lp__testimonial .lp__testimonial__block .msg {
   font-style: italic;
   line-height: 1;
-  font-size: 14px;
+  font-size: 16px;
   margin-top: 24px;
 }
 .lp__testimonial .lp__testimonial__block p.customer {
@@ -192,7 +206,7 @@ section {
   position: absolute;
   right: 50%;
   top: -20px;
-  left: 39%;
+  left: 42%;
   min-width: 200px;
   border-radius: 0;
 }
@@ -242,7 +256,7 @@ section {
   position: absolute;
   right: 0;
   bottom: 0;
-  width: 220px;
+  width: 200px;
   height: auto;
 }
 .lp__blog .m-b-30 {
@@ -279,20 +293,202 @@ section {
 .lp__faqs .panel-group .panel {
   margin-bottom: 14px;
 }
-
-.lp__appointmetn-bottom {
-  padding: 10px 200px;
+.lp__faqs .panel-heading a {
+  position: relative;
+  display: inline-block;
+  width: 100%;
 }
-.lp__appointmetn-bottom .innner {
-  border: 2px solid #ffbf87;
-  border-radius: 4px;
-  width: 500px;
-  height: 400px;
-  margin: 0 auto;
+.lp__faqs .panel-heading a:after {
+  font-family: "FontAwesome";
+  content: "\f147";
+  position: absolute;
+  right: 15px;
+  font-size: 14px;
+  font-weight: 300;
+  top: 50%;
+  line-height: 1;
+  margin-top: -7px;
+}
+.lp__faqs .panel-heading a.collapsed:after {
+  content: "\f196";
 }
 
+/* .lp__appointmetn-bottom {
+	padding: 10px 200px; 
+	.innner {border: 2px solid #ffbf87; border-radius: 4px; width: 500px; height: 400px; margin: 0 auto;  }
+}// */
 .bold {
   font-weight: bold;
+}
+
+.lp__appointmetn-bottom .innner {
+  padding: 20px 40px;
+  border: 6px solid #ffbf87;
+  border-radius: 6px;
+}
+.lp__appointmetn-bottom .innner .col-md-5, .lp__appointmetn-bottom .innner .col-md-7 {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.lp__appointmetn-bottom .innner .col-md-5 {
+  border-right: 2px solid #ddd;
+}
+.lp__appointmetn-bottom .treatment-block {
+  border: 1px solid #ffbf87;
+  border-radius: 4px;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+}
+.lp__appointmetn-bottom .treatment-block h4 {
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+.lp__appointmetn-bottom .treatment-block i {
+  display: inline-block;
+  font-size: 36px;
+  color: #ffbf87;
+  margin-top: 12px;
+  float: right;
+}
+.lp__appointmetn-bottom p.footer-text {
+  margin-top: 20px;
+  color: #ff7700;
+  padding: 10px 15px;
+}
+.lp__appointmetn-bottom p.footer-text i {
+  margin-right: 10px;
+}
+.lp__appointmetn-bottom .orange {
+  color: #ffbf87;
+}
+
+#landing-form {
+  position: absolute;
+  top: -100px;
+  left: 25%;
+  z-index: 9999;
+  max-width: 500px;
+  background: #fff;
+  padding: 0px 15px;
+  padding: 20px 40px;
+  border: 6px solid rgba(173, 90, 10, 0.8);
+  border-radius: 6px;
+  margin-right: auto;
+  margin-left: auto;
+}
+#landing-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+#landing-form .form-control {
+  border-radius: 0;
+  margin-bottom: 20px;
+  height: 40px;
+}
+#landing-form .btn {
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  padding: 8px 12px;
+  font-size: 22px;
+}
+#landing-form input {
+  width: auto;
+}
+#landing-form .form-group input {
+  width: 100%;
+}
+#landing-form ::-webkit-input-placeholder {
+  /* WebKit, Blink, Edge */
+  color: #000;
+}
+#landing-form :-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #000;
+  opacity: 1;
+}
+#landing-form ::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #000;
+  opacity: 1;
+}
+#landing-form :-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #000;
+}
+#landing-form :placeholder-shown {
+  /* Standard (https://drafts.csswg.org/selectors-4/#placeholder) */
+  color: #000;
+}
+#landing-form .btn-sample {
+  color: #ffffff;
+  background-color: #fa8f3e;
+  border-color: #793c1a;
+}
+#landing-form .btn-sample:hover, #landing-form .btn-sample:focus, #landing-form .btn-sample:active, #landing-form .btn-sample.active {
+  color: #ffffff;
+  background-color: #fa8f3e;
+  border-color: #793c1a;
+}
+
+#landing-form-2 {
+  max-width: 500px;
+  background: #fff;
+  padding: 0px 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+#landing-form-2 h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+#landing-form-2 .form-control {
+  border-radius: 0;
+  margin-bottom: 20px;
+  height: 40px;
+}
+#landing-form-2 .btn {
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  padding: 8px 12px;
+  font-size: 22px;
+}
+#landing-form-2 input {
+  width: auto;
+}
+#landing-form-2 .form-group input {
+  width: 100%;
+}
+#landing-form-2 ::-webkit-input-placeholder {
+  /* WebKit, Blink, Edge */
+  color: #000;
+}
+#landing-form-2 :-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #000;
+  opacity: 1;
+}
+#landing-form-2 ::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #000;
+  opacity: 1;
+}
+#landing-form-2 :-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #000;
+}
+#landing-form-2 :placeholder-shown {
+  /* Standard (https://drafts.csswg.org/selectors-4/#placeholder) */
+  color: #000;
+}
+#landing-form-2 .btn-sample {
+  color: #ffffff;
+  background-color: #fa8f3e;
+  border-color: #793c1a;
+}
+#landing-form-2 .btn-sample:hover, #landing-form-2 .btn-sample:focus, #landing-form-2 .btn-sample:active, #landing-form-2 .btn-sample.active {
+  color: #ffffff;
+  background-color: #fa8f3e;
+  border-color: #793c1a;
 }
 
 #carousel-1 {
@@ -330,12 +526,12 @@ section {
 
 .indicator-next {
   right: -11px;
-  top: 170px;
+  top: 41%;
 }
 
 .indicator-pre {
   left: -11px;
-  top: 170px;
+  top: 41%;
 }
 
 .btn-orange-top {
@@ -400,6 +596,10 @@ section {
     padding: 0 100px;
   }
 
+  .lp__appointmetn-bottom {
+    padding: 10px 100px;
+  }
+
   .lp__lear-more .tab-content ul {
     float: none;
   }
@@ -442,6 +642,10 @@ section {
     padding: 20px 100px;
   }
 
+  .lp__appointmetn-bottom {
+    padding: 10px 100px;
+  }
+
   .about-section {
     padding: 0 100px;
     margin-bottom: 50px;
@@ -451,14 +655,18 @@ section {
   .lp__testimonial {
     padding: 20px 100px;
   }
+
+  .lp__appointmetn-bottom {
+    padding: 10px 100px;
+  }
 }
 @media (min-width: 1200px) {
-  .hidden-lg {
-    display: none !important;
+  .lp__appointmetn-bottom {
+    padding: 10px 200px;
   }
 }
 .visible-print {
   display: none !important;
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style-landing-page.css.map */

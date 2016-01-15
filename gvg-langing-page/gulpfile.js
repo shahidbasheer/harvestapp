@@ -70,6 +70,7 @@ var gulp = require('gulp'),
 	var config_rb = rootAddress  + 'config.rb';
 	var compassSource = rootAddress  + 'sass/*.scss';
 	var compassDest = rootAddress  + 'css';
+	//var compassDest = rootAddress  + 'C:\\xampp\\htdocs\\drgvg\\css';
 	var sassFolder = rootAddress  + 'sass';
 	var tmpassets = rootAddress  + 'compass_temp_assets';
 

@@ -3,7 +3,7 @@
   padding-right: 100px;
   padding-top: 150px;
   background-image: url("../images/banner-bg.png");
-  background-repeat: repeat-x;
+  background-repeat: repeat-y;
   height: 600px;
 }
 .jumbotron h1 {
